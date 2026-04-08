@@ -1703,3 +1703,4562 @@ It now includes:
 - how parents can manage linked devices and contact support
 
 If you want, I can also add the same family-device language into `index.html` so both privacy pages stay consistent.
+
+---
+
+_**User (2026-04-08 12:07:34Z)**_
+
+fix the terms
+
+
+---
+
+_**Agent (gpt-5.4 2026-04-08 12:07:42Z)**_
+
+I’m checking the terms page now so I can fix both the styling and any obvious content issues in the same pass, keeping it consistent with the privacy pages.
+
+_**Agent (gpt-5.4 2026-04-08 12:07:42Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,260p' term.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,260p' term.html"
+Chunk ID: 19093b
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 1837
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms & Conditions - Elimu Pepe</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --accent-color: #3498db;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+      .policy-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 40px;
+      }
+      h2 {
+        color: var(--primary-color);
+        margin-top: 40px;
+        font-size: 1.6rem;
+        border-left: 5px solid var(--accent-color);
+        padding-left: 15px;
+      }
+      h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+      }
+      h4 {
+        color: #34495e;
+        text-decoration: underline;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      .highlight-box {
+        background-color: #e8f4fd;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #d1e9f9;
+        margin: 20px 0;
+      }
+      .footer-note {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #95a5a6;
+      }
+      @media (max-width: 600px) {
+        .policy-container {
+          padding: 20px;
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav style="text-align: center; background: #f0f0f0; padding: 10px">
+      <a
+        href="index.html"
+        style="margin: 0 15px; text-decoration: none; color: #2c3e50"
+        >Privacy Policy</a
+      >
+      <a
+        href="term.html"
+        style="margin: 0 15px; text-decoration: none; color: #2c3e50"
+        >Terms & Conditions</a
+      >
+    </nav>
+    <div class="policy-container">
+      <img
+        src="logo.png"
+        alt="Elimu Pepe Logo"
+        style="
+          max-width: 150px;
+          height: auto;
+          display: block;
+          margin: 0 auto 20px;
+        "
+      />
+      <h1>Terms & Conditions</h1>
+      <p class="subtitle">Your Agreement with Us</p>
+      <p><strong>Last Updated: October 2026</strong></p>
+
+      <section>
+        <div class="container">
+          <h2>1. Introduction</h2>
+          <p>
+            Welcome to <strong>Elimu Pepe</strong>, an educational platform that
+            provides digital learning content, competitions (Elimu Quest), and
+            subscription-based access services.
+          </p>
+          <p>
+            By accessing or using our platform, you agree to these Terms and
+            Conditions. If you do not agree, please do not use the platform.
+          </p>
+
+          <h2>2. Eligibility</h2>
+          <ul>
+            <li>
+              You must be at least 18 years old or use the platform under a
+              parent/guardian account
+            </li>
+            <li>Parents may create and manage learner accounts</li>
+          </ul>
+
+          <h2>3. Account Registration</h2>
+          <ul>
+            <li>You agree to provide accurate and complete information</li>
+            <li>You are responsible for maintaining account confidentiality</li>
+            <li>
+              We may suspend accounts with false or misleading information
+            </li>
+          </ul>
+
+          <h2>4. Subscription & Payments</h2>
+          <ul>
+            <li>Access to Elimu Pepe may require a paid subscription</li>
+            <li>Payments may be made via Airtime or M-Pesa</li>
+            <li>Some plans auto-renew unless cancelled</li>
+            <li>
+              You are responsible for ensuring sufficient balance for
+              auto-renewals
+            </li>
+            <li>
+              Subscriptions are non-refundable once activated unless stated
+              otherwise
+            </li>
+          </ul>
+
+          <h2>5. Service Access</h2>
+          <ul>
+            <li>
+              Access may depend on mobile network verification (e.g., Safaricom)
+            </li>
+            <li>We 
+... (truncated)
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:07:42Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `tail -n 120 term.html`</summary>
+```
+Command: /bin/bash -lc 'tail -n 120 term.html'
+Chunk ID: 774853
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 1011
+Output:
+          <p>
+            By accessing or using our platform, you agree to these Terms and
+            Conditions. If you do not agree, please do not use the platform.
+          </p>
+
+          <h2>2. Eligibility</h2>
+          <ul>
+            <li>
+              You must be at least 18 years old or use the platform under a
+              parent/guardian account
+            </li>
+            <li>Parents may create and manage learner accounts</li>
+          </ul>
+
+          <h2>3. Account Registration</h2>
+          <ul>
+            <li>You agree to provide accurate and complete information</li>
+            <li>You are responsible for maintaining account confidentiality</li>
+            <li>
+              We may suspend accounts with false or misleading information
+            </li>
+          </ul>
+
+          <h2>4. Subscription & Payments</h2>
+          <ul>
+            <li>Access to Elimu Pepe may require a paid subscription</li>
+            <li>Payments may be made via Airtime or M-Pesa</li>
+            <li>Some plans auto-renew unless cancelled</li>
+            <li>
+              You are responsible for ensuring sufficient balance for
+              auto-renewals
+            </li>
+            <li>
+              Subscriptions are non-refundable once activated unless stated
+              otherwise
+            </li>
+          </ul>
+
+          <h2>5. Service Access</h2>
+          <ul>
+            <li>
+              Access may depend on mobile network verification (e.g., Safaricom)
+            </li>
+            <li>We may restrict or suspend access if verification fails</li>
+          </ul>
+
+          <h2>6. Acceptable Use</h2>
+          <p>You agree NOT to:</p>
+          <ul>
+            <li>Use the platform for illegal activities</li>
+            <li>Attempt to hack, disrupt, or damage the system</li>
+            <li>Share login credentials with unauthorized users</li>
+            <li>Upload harmful or inappropriate content</li>
+          </ul>
+
+          <h2>7. Intellectual Property</h2>
+          <p>
+            All content on Elimu Pepe, including courses, quizzes, and
+            materials, is owned by or licensed to us and protected by copyright
+            laws.
+          </p>
+
+          <h2>8. User Content</h2>
+          <p>If you submit any content:</p>
+          <ul>
+            <li>You grant us the right to use it to improve our services</li>
+            <li>You confirm you have permission to share such content</li>
+          </ul>
+
+          <h2>9. Privacy</h2>
+          <p>Your data is handled according to our Privacy Policy.</p>
+
+          <h2>10. Service Availability</h2>
+          <p>
+            We strive to keep the platform available at all times but do not
+            guarantee uninterrupted service.
+          </p>
+
+          <h2>11. Limitation of Liability</h2>
+          <p>Elimu Pepe is not liable for:</p>
+          <ul>
+            <li>Service interruptions</li>
+            <li>Loss of data</li>
+            <li>Indirect or consequential damages</li>
+          </ul>
+
+          <h2>12. Termination</h2>
+          <p>
+            We may suspend or terminate your account if you violate these Terms.
+          </p>
+
+          <h2>13. Changes to Terms</h2>
+          <p>
+            We may update these Terms at any time. Continued use means
+            acceptance of updates.
+          </p>
+
+          <h2>14. Governing Law</h2>
+          <p>These Terms are governed by the laws of Kenya.</p>
+
+          <h2>15. Contact Us</h2>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:support@loholearning.co.ke"
+              >support@loholearning.co.ke</a
+            >
+          </p>
+          <p>
+            <strong>Website:</strong>
+            <a href="https://loho-stack.github.io/app-policies/terms.html"
+              >https://loho-stack.github.io/app-policies/terms.html</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <p class="footer-note">© 2026 Elimu Pepe. All rights reserved.</p>
+    </div>
+  </body>
+</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:07:47Z)**_
+
+I found a few obvious issues in `term.html`: it still uses inline nav/logo styles, the contact URL points to `terms.html` while the local file is `term.html`, and the branding/footer doesn’t match the privacy pages. I’m cleaning those up together.
+
+_**Agent (gpt-5.4 2026-04-08 12:07:47Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `rg --files`</summary>
+```
+Command: /bin/bash -lc 'rg --files'
+Chunk ID: c83471
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 15
+Output:
+h
+logo.png
+index.html
+policy.html
+term.html
+terms.html
+l
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:07:47Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,170p' index.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,170p' index.html"
+Chunk ID: 3e0a0e
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 1195
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Elimu Pepe</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --accent-color: #3498db;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+      nav {
+        text-align: center;
+        background: #f0f0f0;
+        padding: 10px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      .policy-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .page-logo {
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+      }
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 40px;
+      }
+      h2 {
+        color: var(--primary-color);
+        margin-top: 40px;
+        font-size: 1.6rem;
+        border-left: 5px solid var(--accent-color);
+        padding-left: 15px;
+      }
+      h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+      }
+      h4 {
+        color: #34495e;
+        text-decoration: underline;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--accent-color);
+      }
+      .highlight-box {
+        background-color: #e8f4fd;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #d1e9f9;
+        margin: 20px 0;
+      }
+      .footer-note {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #95a5a6;
+      }
+      @media (max-width: 600px) {
+        .policy-container {
+          padding: 20px;
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="term.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <p class="subtitle">Your Privacy is Our Priority</p>
+      <div>
+        <strong
+          ><span style="font-size: 26px"
+            ><span data-custom-class="title"
+              ><bdt class="block-component"></bdt
+              ><bdt class="question"><h1>PRIVACY POLICY</h1></bdt
+              ><bdt class="statement-end-if-in-editor"></bdt></span></span
+        ></strong>
+      </div>
+      <div>
+        <span style="color: rgb(127, 127, 127)"
+          ><strong
+            ><span style="font-size: 15px"
+              ><span data-custom-class="subtitle"
+                >Last updated <bdt class="question">April 08, 2026</bdt></span
+              ></span
+            ></strong
+          ></span
+        >
+      </div>
+      <div><br /></div>
+      <div><br /></div>
+      <div><br /></div>
+      <div style="line-height: 1.5">
+        <span style="color: rgb(127, 127, 127)"
+          ><span style="color: rgb(89, 89, 89); font-size: 15px"
+            ><span data-custom-class="body_text"
+              >This Privacy Notice for
+              <bdt class="question noTranslate">elimupepe</bdt
+              ><bdt class="block-component"></bdt> (<bdt
+                class="block-component"
+              ></bdt
+              >"<strong>we</strong>," "<strong>us</strong>," or
+              "<strong>our</strong>"<bdt
+                class="statement-end-if-in-editor"
+              ></bdt></span
+            ><span data-custom-class="body_text"
+              >), describes how and why we might access, collect, store, use,
+              and/or share (<bdt class="block-component"></bdt
+              >"<strong>process</strong>"<bdt
+                class="statement-end-if-in-editor"
+              ></bdt
+              >) your personal information when you use our services (<bdt
+                class="block-component"
+              ></bdt
+              >"<strong>Services</strong>"<bdt
+                class="statement-end-if-in-editor"
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:07:51Z)**_
+
+I’m updating `term.html` to use the same shared CSS structure as the fixed privacy page, and I’m correcting the small content inconsistencies while I’m there so the site feels coherent.
+
+_**Agent (gpt-5.4 2026-04-08 12:08:06Z)**_
+
+<tool-use data-tool-type="write" data-tool-name="apply_patch"><details>
+<summary>Tool use: **apply_patch**</summary>
+**Update: `/home/joe/Videos/Code/new/privacy/term.html`**
+
+```diff
+@@
+       body {
+         font-family:
+           "Inter",
+@@
+         margin: 0;
+         padding: 20px;
+       }
++      nav {
++        text-align: center;
++        background: #f0f0f0;
++        padding: 10px;
++      }
++      nav a {
++        margin: 0 15px;
++        text-decoration: none;
++        color: #2c3e50;
++      }
+       .policy-container {
+         max-width: 900px;
+         margin: 40px auto;
+@@
+         border-radius: 12px;
+         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+       }
++      .page-logo {
++        max-width: 150px;
++        height: auto;
++        display: block;
++        margin: 0 auto 20px;
++      }
+       h1 {
+         color: var(--primary-color);
+         font-size: 2.5rem;
+@@
+       ul {
+         padding-left: 20px;
+       }
++      a {
++        color: var(--accent-color);
++      }
+       .highlight-box {
+         background-color: #e8f4fd;
+         padding: 20px;
+@@
+   </head>
+   <body>
+-    <nav style="text-align: center; background: #f0f0f0; padding: 10px">
+-      <a
+-        href="index.html"
+-        style="margin: 0 15px; text-decoration: none; color: #2c3e50"
+-        >Privacy Policy</a
+-      >
+-      <a
+-        href="term.html"
+-        style="margin: 0 15px; text-decoration: none; color: #2c3e50"
+-        >Terms & Conditions</a
+-      >
++    <nav>
++      <a href="index.html">Privacy Policy</a>
++      <a href="term.html">Terms & Conditions</a>
+     </nav>
+     <div class="policy-container">
+-      <img
+-        src="logo.png"
+-        alt="Elimu Pepe Logo"
+-        style="
+-          max-width: 150px;
+-          height: auto;
+-          display: block;
+-          margin: 0 auto 20px;
+-        "
+-      />
++      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+       <h1>Terms & Conditions</h1>
+       <p class="subtitle">Your Agreement with Us</p>
+-      <p><strong>Last Updated: October 2026</strong></p>
++      <p><strong>Last Updated: April 08, 2026</strong></p>
+@@
+           <p>
+             <strong>Website:</strong>
+-            <a href="https://loho-stack.github.io/app-policies/terms.html"
+-              >https://loho-stack.github.io/app-policies/terms.html</a
++            <a href="https://loho-stack.github.io/app-policies/term.html"
++              >https://loho-stack.github.io/app-policies/term.html</a
+             >
+           </p>
+         </div>
+       </section>
+ 
+-      <p class="footer-note">© 2026 Elimu Pepe. All rights reserved.</p>
++      <p class="footer-note">© 2026 Loho Learning. All rights reserved.</p>
+     </div>
+   </body>
+ </html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:08:10Z)**_
+
+The terms page has been cleaned up. I’m doing a quick verification pass to make sure the shared nav, logo class, date, and link updates all landed correctly.
+
+_**Agent (gpt-5.4 2026-04-08 12:08:10Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,180p' term.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,180p' term.html"
+Chunk ID: 48292e
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 1229
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms & Conditions - Elimu Pepe</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --accent-color: #3498db;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+      nav {
+        text-align: center;
+        background: #f0f0f0;
+        padding: 10px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      .policy-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .page-logo {
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+      }
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 40px;
+      }
+      h2 {
+        color: var(--primary-color);
+        margin-top: 40px;
+        font-size: 1.6rem;
+        border-left: 5px solid var(--accent-color);
+        padding-left: 15px;
+      }
+      h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+      }
+      h4 {
+        color: #34495e;
+        text-decoration: underline;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--accent-color);
+      }
+      .highlight-box {
+        background-color: #e8f4fd;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #d1e9f9;
+        margin: 20px 0;
+      }
+      .footer-note {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #95a5a6;
+      }
+      @media (max-width: 600px) {
+        .policy-container {
+          padding: 20px;
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="term.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <h1>Terms & Conditions</h1>
+      <p class="subtitle">Your Agreement with Us</p>
+      <p><strong>Last Updated: April 08, 2026</strong></p>
+
+      <section>
+        <div class="container">
+          <h2>1. Introduction</h2>
+          <p>
+            Welcome to <strong>Elimu Pepe</strong>, an educational platform that
+            provides digital learning content, competitions (Elimu Quest), and
+            subscription-based access services.
+          </p>
+          <p>
+            By accessing or using our platform, you agree to these Terms and
+            Conditions. If you do not agree, please do not use the platform.
+          </p>
+
+          <h2>2. Eligibility</h2>
+          <ul>
+            <li>
+              You must be at least 18 years old or use the platform under a
+              parent/guardian account
+            </li>
+            <li>Parents may create and manage learner accounts</li>
+          </ul>
+
+          <h2>3. Account Registration</h2>
+          <ul>
+            <li>You agree to provide accurate and complete information</li>
+            <li>You are responsible for maintaining account confidentiality</li>
+            <li>
+              We may suspend accounts with false or misleading information
+            </li>
+          </ul>
+
+          <h2>4. Subscription & Payments</h2>
+          <ul>
+            <li>Access to Elimu Pepe may require a paid subscription</li>
+            <li>Payments may be made via Airtime or M-Pesa</li>
+            <li>Some plans auto-renew unless cancelled</li>
+            <li>
+              You are responsible for ensuring sufficient balance for
+              auto-renewals
+            </li>
+            <li>
+              Subscriptions are non-refundable once activated unless stated
+              otherwise
+            </li>
+          </ul>
+
+          <h2>5. Service Access</h2>
+          <ul>
+            <li>
+              Access may depend on mobile network verification (e.g., Safaricom)
+            </li>
+            <li>We may r
+... (truncated)
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:08:10Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `tail -n 40 term.html`</summary>
+```
+Command: /bin/bash -lc 'tail -n 40 term.html'
+Chunk ID: 1be31b
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 292
+Output:
+          <ul>
+            <li>Service interruptions</li>
+            <li>Loss of data</li>
+            <li>Indirect or consequential damages</li>
+          </ul>
+
+          <h2>12. Termination</h2>
+          <p>
+            We may suspend or terminate your account if you violate these Terms.
+          </p>
+
+          <h2>13. Changes to Terms</h2>
+          <p>
+            We may update these Terms at any time. Continued use means
+            acceptance of updates.
+          </p>
+
+          <h2>14. Governing Law</h2>
+          <p>These Terms are governed by the laws of Kenya.</p>
+
+          <h2>15. Contact Us</h2>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:support@loholearning.co.ke"
+              >support@loholearning.co.ke</a
+            >
+          </p>
+          <p>
+            <strong>Website:</strong>
+            <a href="https://loho-stack.github.io/app-policies/term.html"
+              >https://loho-stack.github.io/app-policies/term.html</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <p class="footer-note">© 2026 Loho Learning. All rights reserved.</p>
+    </div>
+  </body>
+</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:08:14Z)**_
+
+`term.html` is fixed and now matches the cleaned-up style of the other pages. I updated the nav and logo to use shared CSS, changed the last-updated date to `April 08, 2026`, corrected the website link to `term.html`, and made the footer branding consistent.
+
+Updated file: [term.html](/home/joe/Videos/Code/new/privacy/term.html)
+
+One thing I noticed: your folder also has a separate [terms.html](/home/joe/Videos/Code/new/privacy/terms.html). If you want, I can check that too so you don’t end up with two different terms pages.
+
+---
+
+_**User (2026-04-08 12:08:53Z)**_
+
+fix terms.html
+
+
+---
+
+_**Agent (gpt-5.4 2026-04-08 12:08:57Z)**_
+
+I’m checking `terms.html` now and I’ll bring it in line with the fixed terms page rather than leaving two different versions around.
+
+_**Agent (gpt-5.4 2026-04-08 12:08:57Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,260p' terms.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,260p' terms.html"
+Chunk ID: acd19d
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 2169
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+   <style>
+      :root {
+        --primary-color: #2c3e50;
+        --accent-color: #3498db;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+      nav {
+        text-align: center;
+        background: #f0f0f0;
+        padding: 10px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      .policy-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .page-logo {
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+      }
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 40px;
+      }
+      h2 {
+        color: var(--primary-color);
+        margin-top: 40px;
+        font-size: 1.6rem;
+        border-left: 5px solid var(--accent-color);
+        padding-left: 15px;
+      }
+      h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+      }
+      h4 {
+        color: #34495e;
+        text-decoration: underline;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--accent-color);
+      }
+      .highlight-box {
+        background-color: #e8f4fd;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #d1e9f9;
+        margin: 20px 0;
+      }
+      .footer-note {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #95a5a6;
+      }
+      @media (max-width: 600px) {
+        .policy-container {
+          padding: 20px;
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  <body>
+    <div data-custom-class="body">
+      <div align="center" style="text-align: left">
+        <div
+          class="MsoNormal"
+          data-custom-class="title"
+          style="line-height: 1.5"
+        >
+          <bdt class="block-component"
+            ><span style="font-size: 19px"></span></bdt
+          ><span style="font-size: 19px"
+            ><strong><h1>TERMS OF USE</h1></strong><bdt class="else-block"></bdt
+          ></span>
+        </div>
+        <div
+          class="MsoNormal"
+          data-custom-class="subtitle"
+          style="line-height: 1.5"
+        >
+          <strong>Last updated</strong>
+          <bdt class="question"><strong>__________</strong></bdt>
+        </div>
+        <div class="MsoNormal" style="line-height: 1.1"><br /></div>
+        <div style="line-height: 1.5"><br /></div>
+        <div style="line-height: 1.5">
+          <strong
+            ><span data-custom-class="heading_1"
+              ><h2>AGREEMENT TO OUR LEGAL TERMS</h2></span
+            ></strong
+          >
+        </div>
+      </div>
+      <div align="center" style="text-align: left">
+        <div class="MsoNormal" id="agreement" style="line-height: 1.5">
+          <a name="_6aa3gkhykvst"></a>
+        </div>
+      </div>
+      <div align="center" style="text-align: left">
+        <div
+          class="MsoNormal"
+          data-custom-class="body_text"
+          style="line-height: 1.5"
+        >
+          <span
+            style="font-size:11.0pt;line-height:115%;font-family:Arial;
+Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"
+            >We are
+            <bdt
+              class="question noTranslate"
+              data-id="9d459c4e-c548-e5cb-7729-a118548965d2"
+              >__________</bdt
+            ><bdt class="block-component"></bdt> (<bdt
+              class="block-component"
+            ></bdt
+            >"<strong>Company</strong>," "<strong>we</strong>,"
+            "<strong>us</strong>," "<strong>our</strong>"<bdt
+              class="statement-end-if-in-editor"
+            ></bdt
+            >)<span
+              style="font-size:11.0pt;line-height:115%;
+Arial;mso-fareast-font-family:Calibri;color:#595959;mso-themecolor:text1;
+mso-themetint:166;"
+              ><span
+             
+... (truncated)
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:08:57Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `tail -n 120 terms.html`</summary>
+```
+Command: /bin/bash -lc 'tail -n 120 terms.html'
+Chunk ID: 63fc42
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 1090
+Output:
+              ><span style="font-size: 15px"></span
+            ></bdt>
+          </div>
+          <div class="MsoNormal" style="line-height: 1.5; text-align: left">
+            <br />
+          </div>
+          <div
+            class="MsoNormal"
+            data-custom-class="heading_1"
+            id="contact"
+            style="line-height: 1.5; text-align: left"
+          >
+            <strong
+              ><span style="line-height: 115%; font-family: Arial"
+                ><span style="font-size: 19px; line-height: 1.5"
+                  ><h2>19. CONTACT US</h2></span
+                ></span
+              ></strong
+            >
+          </div>
+          <div
+            class="MsoNormal"
+            data-custom-class="body_text"
+            style="line-height: 1.5; text-align: left"
+          >
+            <span
+              style="font-size:11.0pt;line-height:115%;font-family:Arial;
+Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"
+              >In order to resolve a complaint regarding the Services or to
+              receive further information regarding use of the Services, please
+              contact us at:</span
+            >
+          </div>
+          <div class="MsoNormal" style="line-height: 1.5; text-align: left">
+            <br />
+          </div>
+          <div
+            class="MsoNormal"
+            data-custom-class="body_text"
+            style="line-height: 1.5; text-align: left"
+          >
+            <span style="font-size: 15px"
+              ><span style="color: rgb(89, 89, 89)"
+                ><bdt class="question noTranslate"
+                  ><strong>__________</strong></bdt
+                ><strong><bdt class="block-component"></bdt></strong></span
+              ><strong><bdt class="block-component"></bdt></strong
+            ></span>
+          </div>
+          <div
+            class="MsoNormal"
+            data-custom-class="body_text"
+            style="line-height: 1.5; text-align: left"
+          >
+            <strong
+              ><span style="font-size: 15px"
+                ><strong
+                  ><span style="color: rgb(89, 89, 89)"
+                    ><bdt class="question"
+                      ><bdt class="block-component"></bdt></bdt
+                    ><bdt class="block-component"></bdt
+                    ><bdt class="block-component"></bdt></span></strong
+                ><strong
+                  ><span style="color: rgb(89, 89, 89)"
+                    ><bdt class="block-component"></bdt></span></strong></span
+            ></strong>
+          </div>
+          <div
+            class="MsoNormal"
+            data-custom-class="body_text"
+            style="line-height: 1.5; text-align: left"
+          >
+            <strong
+              ><strong
+                ><span
+                  style="font-size:11.0pt;line-height:115%;font-family:Arial;
+Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"
+                  ><strong
+                    ><bdt class="block-component"></bdt></strong></span></strong
+            ></strong>
+          </div>
+          <div
+            class="MsoNormal"
+            data-custom-class="body_text"
+            style="line-height: 1.5; text-align: left"
+          >
+            <strong
+              ><strong
+                ><span
+                  style="font-size:11.0pt;line-height:115%;font-family:Arial;
+Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"
+                  ><strong
+                    ><bdt class="block-component"></bdt></strong></span></strong
+            ></strong>
+          </div>
+          <div
+            class="MsoNormal"
+            data-custom-class="body_text"
+            style="line-height: 1.5; text-align: left"
+          >
+            <strong
+              ><span
+                style="font-size:11.0pt;line-height:115%;font-family:Arial;
+Calibri;color:#595959;mso-themecolor:text1;mso-themetint:166;"
+                ><strong
+                  ><bdt class="question"
+                    ><bdt class="block-component"></bdt></bdt></strong></span
+            ></strong>
+          </div>
+        </div>
+        <div style="display: none">
+          <a
+            class="terms123"
+            href="https://app.termly.io/dsar/03771126-8047-4952-9154-8025ddacb29e"
+          ></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:09:04Z)**_
+
+`terms.html` is still a raw Termly export with blank placeholders, so I’m replacing it with a clean, working Terms page that matches the fixed site styling instead of trying to patch hundreds of broken generated lines.
+
+_**Agent (gpt-5.4 2026-04-08 12:09:43Z)**_
+
+<tool-use data-tool-type="write" data-tool-name="apply_patch"><details>
+<summary>Tool use: **apply_patch**</summary>
+**Delete: `/home/joe/Videos/Code/new/privacy/terms.html`**
+
+**Add: `/home/joe/Videos/Code/new/privacy/terms.html`**
+
+```diff
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Terms & Conditions - Elimu Pepe</title>
++    <style>
++      :root {
++        --primary-color: #2c3e50;
++        --accent-color: #3498db;
++        --bg-color: #f4f7f6;
++        --text-color: #333;
++      }
++      body {
++        font-family:
++          "Inter",
++          -apple-system,
++          BlinkMacSystemFont,
++          "Segoe UI",
++          Roboto,
++          Helvetica,
++          Arial,
++          sans-serif;
++        line-height: 1.7;
++        color: var(--text-color);
++        background-color: var(--bg-color);
++        margin: 0;
++        padding: 20px;
++      }
++      nav {
++        text-align: center;
++        background: #f0f0f0;
++        padding: 10px;
++      }
++      nav a {
++        margin: 0 15px;
++        text-decoration: none;
++        color: #2c3e50;
++      }
++      .policy-container {
++        max-width: 900px;
++        margin: 40px auto;
++        background: #fff;
++        padding: 50px;
++        border-radius: 12px;
++        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
++      }
++      .page-logo {
++        max-width: 150px;
++        height: auto;
++        display: block;
++        margin: 0 auto 20px;
++      }
++      h1 {
++        color: var(--primary-color);
++        font-size: 2.5rem;
++        border-bottom: 3px solid var(--accent-color);
++        padding-bottom: 15px;
++        margin-bottom: 10px;
++      }
++      .subtitle {
++        font-size: 1.2rem;
++        color: #7f8c8d;
++        margin-bottom: 40px;
++      }
++      h2 {
++        color: var(--primary-color);
++        margin-top: 40px;
++        font-size: 1.6rem;
++        border-left: 5px solid var(--accent-color);
++        padding-left: 15px;
++      }
++      h3 {
++        color: #2c3e50;
++        margin-top: 25px;
++      }
++      h4 {
++        color: #34495e;
++        text-decoration: underline;
++      }
++      p,
++      li {
++        font-size: 1.05rem;
++        margin-bottom: 15px;
++      }
++      ul {
++        padding-left: 20px;
++      }
++      a {
++        color: var(--accent-color);
++      }
++      .footer-note {
++        text-align: center;
++        margin-top: 50px;
++        font-size: 0.9rem;
++        color: #95a5a6;
++      }
++      @media (max-width: 600px) {
++        .policy-container {
++          padding: 20px;
++          margin: 10px;
++        }
++        h1 {
++          font-size: 1.8rem;
++        }
++      }
++    </style>
++  </head>
++  <body>
++    <nav>
++      <a href="index.html">Privacy Policy</a>
++      <a href="terms.html">Terms & Conditions</a>
++    </nav>
++    <div class="policy-container">
++      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
++      <h1>Terms & Conditions</h1>
++      <p class="subtitle">Your Agreement with Us</p>
++      <p><strong>Last Updated: April 08, 2026</strong></p>
++
++      <section>
++        <div class="container">
++          <h2>1. Introduction</h2>
++          <p>
++            Welcome to <strong>Elimu Pepe</strong>, an educational platform that
++            provides digital learning content, competitions (Elimu Quest), and
++            subscription-based access services.
++          </p>
++          <p>
++            By accessing or using our platform, you agree to these Terms and
++            Conditions. If you do not agree, please do not use the platform.
++          </p>
++
++          <h2>2. Eligibility</h2>
++          <ul>
++            <li>
++              You must be at least 18 years old or use the platform under a
++              parent or guardian account.
++            </li>
++            <li>Parents may create and manage learner accounts.</li>
++          </ul>
++
++          <h2>3. Account Registration</h2>
++          <ul>
++            <li>You agree to provide accurate and complete information.</li>
++            <li>
++              You are responsible for maintaining account confidentiality.
++            </li>
++            <li>
++              We may suspend accounts with false or misleading information.
++            </li>
++          </ul>
++
++          <h2>4. Subscription & Payments</h2>
++          <ul>
++            <li>Access to Elimu Pepe may require a paid subscription.</li>
++            <li>Payments may be made via airtime or M-Pesa.</li>
++            <li>Some plans auto-renew unless cancelled.</li>
++            <li>
++              You are responsible for ensuring sufficient balance for
++              auto-renewals.
++            </li>
++            <li>
++              Subscriptions are non-refundable once activated unless stated
++              otherwise.
++            </li>
++          </ul>
++
++          <h2>5. Service Access</h2>
++          <ul>
++            <li>
++              Access may depend on mobile network verification, including
++              Safaricom verification where applicable.
++            </li>
++            <li>We may restrict or suspend access if verification fails.</li>
++          </ul>
++
++          <h2>6. Acceptable Use</h2>
++          <p>You agree not to:</p>
++          <ul>
++            <li>Use the platform for illegal activities.</li>
++            <li>Attempt to hack, disrupt, or damage the system.</li>
++            <li>Share login credentials with unauthorized users.</li>
++            <li>Upload harmful or inappropriate content.</li>
++          </ul>
++
++          <h2>7. Intellectual Property</h2>
++          <p>
++            All content on Elimu Pepe, including courses, quizzes, and
++            materials, is owned by or licensed to us and protected by
++            applicable intellectual property laws.
++          </p>
++
++          <h2>8. User Content</h2>
++          <p>If you submit any content:</p>
++          <ul>
++            <li>You grant us the right to use it to improve our services.</li>
++            <li>You confirm you have permission to share such content.</li>
++          </ul>
++
++          <h2>9. Privacy</h2>
++          <p>
++            Your data is handled according to our
++            <a href="index.html">Privacy Policy</a>.
++          </p>
++
++          <h2>10. Service Availability</h2>
++          <p>
++            We strive to keep the platform available at all times but do not
++            guarantee uninterrupted service.
++          </p>
++
++          <h2>11. Limitation of Liability</h2>
++          <p>Elimu Pepe is not liable for:</p>
++          <ul>
++            <li>Service interruptions.</li>
++            <li>Loss of data.</li>
++            <li>Indirect or consequential damages.</li>
++          </ul>
++
++          <h2>12. Termination</h2>
++          <p>
++            We may suspend or terminate your account if you violate these
++            Terms.
++          </p>
++
++          <h2>13. Changes to Terms</h2>
++          <p>
++            We may update these Terms at any time. Continued use of the
++            platform means acceptance of the updated Terms.
++          </p>
++
++          <h2>14. Governing Law</h2>
++          <p>These Terms are governed by the laws of Kenya.</p>
++
++          <h2>15. Contact Us</h2>
++          <p>
++            <strong>Email:</strong>
++            <a href="mailto:support@loholearning.co.ke"
++              >support@loholearning.co.ke</a
++            >
++          </p>
++          <p>
++            <strong>Website:</strong>
++            <a href="https://loho-stack.github.io/app-policies/terms.html"
++              >https://loho-stack.github.io/app-policies/terms.html</a
++            >
++          </p>
++        </div>
++      </section>
++
++      <p class="footer-note">© 2026 Loho Learning. All rights reserved.</p>
++    </div>
++  </body>
++</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:09:48Z)**_
+
+The broken generator version is gone now. I’m doing one quick readback of the new file so I can confirm the replacement is clean and fully usable.
+
+_**Agent (gpt-5.4 2026-04-08 12:09:48Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,220p' terms.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,220p' terms.html"
+Chunk ID: fd62da
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 1596
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms & Conditions - Elimu Pepe</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --accent-color: #3498db;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+      nav {
+        text-align: center;
+        background: #f0f0f0;
+        padding: 10px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      .policy-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .page-logo {
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+      }
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 40px;
+      }
+      h2 {
+        color: var(--primary-color);
+        margin-top: 40px;
+        font-size: 1.6rem;
+        border-left: 5px solid var(--accent-color);
+        padding-left: 15px;
+      }
+      h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+      }
+      h4 {
+        color: #34495e;
+        text-decoration: underline;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--accent-color);
+      }
+      .footer-note {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #95a5a6;
+      }
+      @media (max-width: 600px) {
+        .policy-container {
+          padding: 20px;
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <h1>Terms & Conditions</h1>
+      <p class="subtitle">Your Agreement with Us</p>
+      <p><strong>Last Updated: April 08, 2026</strong></p>
+
+      <section>
+        <div class="container">
+          <h2>1. Introduction</h2>
+          <p>
+            Welcome to <strong>Elimu Pepe</strong>, an educational platform that
+            provides digital learning content, competitions (Elimu Quest), and
+            subscription-based access services.
+          </p>
+          <p>
+            By accessing or using our platform, you agree to these Terms and
+            Conditions. If you do not agree, please do not use the platform.
+          </p>
+
+          <h2>2. Eligibility</h2>
+          <ul>
+            <li>
+              You must be at least 18 years old or use the platform under a
+              parent or guardian account.
+            </li>
+            <li>Parents may create and manage learner accounts.</li>
+          </ul>
+
+          <h2>3. Account Registration</h2>
+          <ul>
+            <li>You agree to provide accurate and complete information.</li>
+            <li>
+              You are responsible for maintaining account confidentiality.
+            </li>
+            <li>
+              We may suspend accounts with false or misleading information.
+            </li>
+          </ul>
+
+          <h2>4. Subscription & Payments</h2>
+          <ul>
+            <li>Access to Elimu Pepe may require a paid subscription.</li>
+            <li>Payments may be made via airtime or M-Pesa.</li>
+            <li>Some plans auto-renew unless cancelled.</li>
+            <li>
+              You are responsible for ensuring sufficient balance for
+              auto-renewals.
+            </li>
+            <li>
+              Subscriptions are non-refundable once activated unless stated
+              otherwise.
+            </li>
+          </ul>
+
+          <h2>5. Service Access</h2>
+          <ul>
+            <li>
+              Access may depend on mobile network verification, including
+              Safaricom verification where applicable.
+            </li>
+            <li>We may restrict or suspend access if verification fails.</li>
+          </ul>
+
+          <h2>
+... (truncated)
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:09:48Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `tail -n 40 terms.html`</summary>
+```
+Command: /bin/bash -lc 'tail -n 40 terms.html'
+Chunk ID: 1405cb
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 299
+Output:
+            <li>Service interruptions.</li>
+            <li>Loss of data.</li>
+            <li>Indirect or consequential damages.</li>
+          </ul>
+
+          <h2>12. Termination</h2>
+          <p>
+            We may suspend or terminate your account if you violate these
+            Terms.
+          </p>
+
+          <h2>13. Changes to Terms</h2>
+          <p>
+            We may update these Terms at any time. Continued use of the
+            platform means acceptance of the updated Terms.
+          </p>
+
+          <h2>14. Governing Law</h2>
+          <p>These Terms are governed by the laws of Kenya.</p>
+
+          <h2>15. Contact Us</h2>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:support@loholearning.co.ke"
+              >support@loholearning.co.ke</a
+            >
+          </p>
+          <p>
+            <strong>Website:</strong>
+            <a href="https://loho-stack.github.io/app-policies/terms.html"
+              >https://loho-stack.github.io/app-policies/terms.html</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <p class="footer-note">© 2026 Loho Learning. All rights reserved.</p>
+    </div>
+  </body>
+</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:09:52Z)**_
+
+`terms.html` is fixed now. I replaced the broken placeholder-heavy Termly export with a clean Terms & Conditions page that matches the styling of your other pages and includes working contact details.
+
+Updated file: [terms.html](/home/joe/Videos/Code/new/privacy/terms.html)
+
+One thing to note: you now have both [term.html](/home/joe/Videos/Code/new/privacy/term.html) and [terms.html](/home/joe/Videos/Code/new/privacy/terms.html). They’re very similar, so if you want, I can make all links point to just one version and remove the duplicate.
+
+---
+
+_**User (2026-04-08 12:23:35Z)**_
+
+fix
+
+
+---
+
+_**Agent (gpt-5.4 2026-04-08 12:23:39Z)**_
+
+I’m cleaning up the duplicate terms-page setup now so the site points to one consistent Terms URL instead of splitting between `term.html` and `terms.html`.
+
+_**Agent (gpt-5.4 2026-04-08 12:23:39Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `rg -n "term\.html|terms\.html" .`</summary>
+```
+Command: /bin/bash -lc "rg -n \"term\\.html|terms\\.html\" ."
+Chunk ID: 7fad00
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 140
+Output:
+./term.html:119:      <a href="term.html">Terms & Conditions</a>
+./term.html:244:            <a href="https://loho-stack.github.io/app-policies/term.html"
+./term.html:245:              >https://loho-stack.github.io/app-policies/term.html</a
+./index.html:119:      <a href="term.html">Terms & Conditions</a>
+./policy.html:119:      <a href="term.html">Terms & Conditions</a>
+./policy.html:5112:            <a href="https://loho-stack.github.io/app-policies/terms.html"
+./policy.html:5113:              >https://loho-stack.github.io/app-policies/terms.html</a
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:23:39Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `cmp -s term.html terms.html; echo $?`</summary>
+```
+Command: /bin/bash -lc 'cmp -s term.html terms.html; echo $?'
+Chunk ID: 915ef6
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 1
+Output:
+1
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:23:43Z)**_
+
+I found the mismatch: the nav still points to `term.html`, while one policy link already points to `terms.html`. I’m making `terms.html` the canonical page and turning `term.html` into a simple redirect so both URLs stay safe.
+
+_**Agent (gpt-5.4 2026-04-08 12:23:51Z)**_
+
+<tool-use data-tool-type="write" data-tool-name="apply_patch"><details>
+<summary>Tool use: **apply_patch**</summary>
+**Update: `/home/joe/Videos/Code/new/privacy/index.html`**
+
+```diff
+@@
+     <nav>
+       <a href="index.html">Privacy Policy</a>
+-      <a href="term.html">Terms & Conditions</a>
++      <a href="terms.html">Terms & Conditions</a>
+     </nav>
+```
+
+**Update: `/home/joe/Videos/Code/new/privacy/policy.html`**
+
+```diff
+@@
+     <nav>
+       <a href="index.html">Privacy Policy</a>
+-      <a href="term.html">Terms & Conditions</a>
++      <a href="terms.html">Terms & Conditions</a>
+     </nav>
+@@
+             <strong>Terms and Conditions:</strong>
+-            <a href="term.html">Terms & Conditions</a>
++            <a href="terms.html">Terms & Conditions</a>
+           </p>
+         </div>
+       </section>
+```
+
+**Update: `/home/joe/Videos/Code/new/privacy/terms.html`**
+
+```diff
+@@
+     <nav>
+       <a href="index.html">Privacy Policy</a>
+       <a href="terms.html">Terms & Conditions</a>
+     </nav>
+```
+
+**Delete: `/home/joe/Videos/Code/new/privacy/term.html`**
+
+**Add: `/home/joe/Videos/Code/new/privacy/term.html`**
+
+```diff
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta http-equiv="refresh" content="0; url=terms.html" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Redirecting to Terms & Conditions</title>
++  </head>
++  <body>
++    <p>
++      Redirecting to <a href="terms.html">Terms & Conditions</a>.
++    </p>
++  </body>
++</html>
+```
+
+
+```
+apply_patch verification failed: Failed to find expected lines in /home/joe/Videos/Code/new/privacy/policy.html:
+            <strong>Terms and Conditions:</strong>
+            <a href="term.html">Terms & Conditions</a>
+          </p>
+        </div>
+      </section>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:23:57Z)**_
+
+One link in `policy.html` doesn’t match the exact text I expected, so I’m checking the current snippets and then I’ll apply the cleanup in a precise patch.
+
+_**Agent (gpt-5.4 2026-04-08 12:23:57Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '108,132p' index.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '108,132p' index.html"
+Chunk ID: fb102d
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 186
+Output:
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="term.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <p class="subtitle">Your Privacy is Our Priority</p>
+      <div>
+        <strong
+          ><span style="font-size: 26px"
+            ><span data-custom-class="title"
+              ><bdt class="block-component"></bdt
+              ><bdt class="question"><h1>PRIVACY POLICY</h1></bdt
+              ><bdt class="statement-end-if-in-editor"></bdt></span></span
+        ></strong>
+      </div>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:23:57Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '108,132p' policy.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '108,132p' policy.html"
+Chunk ID: 9df383
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 186
+Output:
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="term.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <p class="subtitle">Your Privacy is Our Priority</p>
+      <div>
+        <strong
+          ><span style="font-size: 26px"
+            ><span data-custom-class="title"
+              ><bdt class="block-component"></bdt
+              ><bdt class="question"><h1>PRIVACY POLICY</h1></bdt
+              ><bdt class="statement-end-if-in-editor"></bdt></span></span
+        ></strong>
+      </div>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:23:57Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '5098,5118p' policy.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '5098,5118p' policy.html"
+Chunk ID: 6e1b45
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 237
+Output:
+                                                        href="https://app.termly.io/dsar/7961dd3e-968e-488b-8bbe-5e306da9a4ca"
+                                                      ></a>
+                                                      <h2>14. Governing Law</h2>
+          <p>These Terms are governed by the laws of Kenya.</p>
+
+          <h2>15. Contact Us</h2>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:support@loholearning.co.ke"
+              >support@loholearning.co.ke</a
+            >
+          </p>
+          <p>
+            <strong>Website:</strong>
+            <a href="https://loho-stack.github.io/app-policies/terms.html"
+              >https://loho-stack.github.io/app-policies/terms.html</a
+            >
+          </p>
+                                                    </div>
+                                                  </div>
+                                                </div>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:23:57Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '108,130p' term.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '108,130p' term.html"
+Chunk ID: d8e63e
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 148
+Output:
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="term.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <h1>Terms & Conditions</h1>
+      <p class="subtitle">Your Agreement with Us</p>
+      <p><strong>Last Updated: April 08, 2026</strong></p>
+
+      <section>
+        <div class="container">
+          <h2>1. Introduction</h2>
+          <p>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:24:00Z)**_
+
+I’ve got the exact spots now. I’m updating the live links to `terms.html` and converting `term.html` into a lightweight redirect so old links won’t break.
+
+_**Agent (gpt-5.4 2026-04-08 12:24:06Z)**_
+
+<tool-use data-tool-type="write" data-tool-name="apply_patch"><details>
+<summary>Tool use: **apply_patch**</summary>
+**Update: `/home/joe/Videos/Code/new/privacy/index.html`**
+
+```diff
+@@
+     <nav>
+       <a href="index.html">Privacy Policy</a>
+-      <a href="term.html">Terms & Conditions</a>
++      <a href="terms.html">Terms & Conditions</a>
+     </nav>
+```
+
+**Update: `/home/joe/Videos/Code/new/privacy/policy.html`**
+
+```diff
+@@
+     <nav>
+       <a href="index.html">Privacy Policy</a>
+-      <a href="term.html">Terms & Conditions</a>
++      <a href="terms.html">Terms & Conditions</a>
+     </nav>
+```
+
+**Delete: `/home/joe/Videos/Code/new/privacy/term.html`**
+
+**Add: `/home/joe/Videos/Code/new/privacy/term.html`**
+
+```diff
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta http-equiv="refresh" content="0; url=terms.html" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Redirecting to Terms & Conditions</title>
++  </head>
++  <body>
++    <p>Redirecting to <a href="terms.html">Terms & Conditions</a>.</p>
++  </body>
++</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:24:10Z)**_
+
+The URL cleanup is in place. I’m doing one final search to confirm the site now consistently uses `terms.html` and that `term.html` only remains as a redirect.
+
+_**Agent (gpt-5.4 2026-04-08 12:24:10Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `rg -n "term\.html|terms\.html" .`</summary>
+```
+Command: /bin/bash -lc "rg -n \"term\\.html|terms\\.html\" ."
+Chunk ID: c68fb1
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 121
+Output:
+./policy.html:119:      <a href="terms.html">Terms & Conditions</a>
+./policy.html:5112:            <a href="https://loho-stack.github.io/app-policies/terms.html"
+./policy.html:5113:              >https://loho-stack.github.io/app-policies/terms.html</a
+./term.html:5:    <meta http-equiv="refresh" content="0; url=terms.html" />
+./term.html:10:    <p>Redirecting to <a href="terms.html">Terms & Conditions</a>.</p>
+./index.html:119:      <a href="terms.html">Terms & Conditions</a>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:24:10Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,40p' term.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,40p' term.html"
+Chunk ID: 42872c
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 93
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=terms.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting to Terms & Conditions</title>
+  </head>
+  <body>
+    <p>Redirecting to <a href="terms.html">Terms & Conditions</a>.</p>
+  </body>
+</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:24:14Z)**_
+
+The terms-page mismatch is fixed now.
+
+I updated [index.html](/home/joe/Videos/Code/new/privacy/index.html) and [policy.html](/home/joe/Videos/Code/new/privacy/policy.html) to link to `terms.html`, and I converted [term.html](/home/joe/Videos/Code/new/privacy/term.html) into a redirect to [terms.html](/home/joe/Videos/Code/new/privacy/terms.html). That means old `term.html` links still work, but the site now has one real canonical Terms page.
+
+I also verified there are no remaining live nav links pointing to `term.html`.
+
+---
+
+_**User (2026-04-08 12:24:41Z)**_
+
+terms to aline with index
+
+
+---
+
+_**Agent (gpt-5.4 2026-04-08 12:24:46Z)**_
+
+I’m aligning `terms.html` with `index.html`’s exact page shell now so the header, spacing, nav treatment, and hero area all match one-for-one.
+
+_**Agent (gpt-5.4 2026-04-08 12:24:46Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,180p' index.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,180p' index.html"
+Chunk ID: c9c049
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 1288
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Elimu Pepe</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --accent-color: #3498db;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+      nav {
+        text-align: center;
+        background: #f0f0f0;
+        padding: 10px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      .policy-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .page-logo {
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+      }
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 40px;
+      }
+      h2 {
+        color: var(--primary-color);
+        margin-top: 40px;
+        font-size: 1.6rem;
+        border-left: 5px solid var(--accent-color);
+        padding-left: 15px;
+      }
+      h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+      }
+      h4 {
+        color: #34495e;
+        text-decoration: underline;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--accent-color);
+      }
+      .highlight-box {
+        background-color: #e8f4fd;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #d1e9f9;
+        margin: 20px 0;
+      }
+      .footer-note {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #95a5a6;
+      }
+      @media (max-width: 600px) {
+        .policy-container {
+          padding: 20px;
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <p class="subtitle">Your Privacy is Our Priority</p>
+      <div>
+        <strong
+          ><span style="font-size: 26px"
+            ><span data-custom-class="title"
+              ><bdt class="block-component"></bdt
+              ><bdt class="question"><h1>PRIVACY POLICY</h1></bdt
+              ><bdt class="statement-end-if-in-editor"></bdt></span></span
+        ></strong>
+      </div>
+      <div>
+        <span style="color: rgb(127, 127, 127)"
+          ><strong
+            ><span style="font-size: 15px"
+              ><span data-custom-class="subtitle"
+                >Last updated <bdt class="question">April 08, 2026</bdt></span
+              ></span
+            ></strong
+          ></span
+        >
+      </div>
+      <div><br /></div>
+      <div><br /></div>
+      <div><br /></div>
+      <div style="line-height: 1.5">
+        <span style="color: rgb(127, 127, 127)"
+          ><span style="color: rgb(89, 89, 89); font-size: 15px"
+            ><span data-custom-class="body_text"
+              >This Privacy Notice for
+              <bdt class="question noTranslate">elimupepe</bdt
+              ><bdt class="block-component"></bdt> (<bdt
+                class="block-component"
+              ></bdt
+              >"<strong>we</strong>," "<strong>us</strong>," or
+              "<strong>our</strong>"<bdt
+                class="statement-end-if-in-editor"
+              ></bdt></span
+            ><span data-custom-class="body_text"
+              >), describes how and why we might access, collect, store, use,
+              and/or share (<bdt class="block-component"></bdt
+              >"<strong>process</strong>"<bdt
+                class="statement-end-if-in-editor"
+              ></bdt
+              >) your personal information when you use our services (<bdt
+                class="block-component"
+              ></bdt
+              >"<strong>Services</strong>"<bdt
+                class="statement-end-if-in-editor"
+              ></bdt
+              >), including when you:</span
+
+... (truncated)
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:24:46Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,180p' terms.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,180p' terms.html"
+Chunk ID: 028003
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 3436
+Output:
+<div class="document-previewer-wrapper-bd1724">
+  <style>
+    [data-custom-class="body"],
+    [data-custom-class="body"] * {
+      background: transparent !important;
+    }
+    [data-custom-class="title"],
+    [data-custom-class="title"] * {
+      font-family: Arial !important;
+      font-size: 26px !important;
+      color: #000000 !important;
+    }
+    [data-custom-class="subtitle"],
+    [data-custom-class="subtitle"] * {
+      font-family: Arial !important;
+      color: #595959 !important;
+      font-size: 14px !important;
+    }
+    [data-custom-class="heading_1"],
+    [data-custom-class="heading_1"] * {
+      font-family: Arial !important;
+      font-size: 19px !important;
+      color: #000000 !important;
+    }
+    [data-custom-class="heading_2"],
+    [data-custom-class="heading_2"] * {
+      font-family: Arial !important;
+      font-size: 17px !important;
+      color: #000000 !important;
+    }
+    [data-custom-class="body_text"],
+    [data-custom-class="body_text"] * {
+      color: #595959 !important;
+      font-size: 14px !important;
+      font-family: Arial !important;
+    }
+    [data-custom-class="link"],
+    [data-custom-class="link"] * {
+      color: #3030f1 !important;
+      font-size: 14px !important;
+      font-family: Arial !important;
+      word-break: break-word !important;
+    }
+  </style>
+  <span
+    style="
+      display: block;
+      margin: 0 auto 3.125rem;
+      width: 11.125rem;
+      height: 2.375rem;
+      background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzgiIGhlaWdodD0iMzgiIHZpZXdCb3g9IjAgMCAxNzggMzgiPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8cGF0aCBmaWxsPSIjRDFEMUQxIiBkPSJNNC4yODMgMjQuMTA3Yy0uNzA1IDAtMS4yNTgtLjI1Ni0xLjY2LS43NjhoLS4wODVjLjA1Ny41MDIuMDg2Ljc5Mi4wODYuODd2Mi40MzRILjk4NXYtOC42NDhoMS4zMzJsLjIzMS43NzloLjA3NmMuMzgzLS41OTQuOTUtLjg5MiAxLjcwMi0uODkyLjcxIDAgMS4yNjQuMjc0IDEuNjY1LjgyMi40MDEuNTQ4LjYwMiAxLjMwOS42MDIgMi4yODMgMCAuNjQtLjA5NCAxLjE5OC0uMjgyIDEuNjctLjE4OC40NzMtLjQ1Ni44MzMtLjgwMyAxLjA4LS4zNDcuMjQ3LS43NTYuMzctMS4yMjUuMzd6TTMuOCAxOS4xOTNjLS40MDUgMC0uNy4xMjQtLjg4Ni4zNzMtLjE4Ny4yNDktLjI4My42Ni0uMjkgMS4yMzN2LjE3N2MwIC42NDUuMDk1IDEuMTA3LjI4NyAxLjM4Ni4xOTIuMjguNDk1LjQxOS45MS40MTkuNzM0IDAgMS4xMDEtLjYwNSAxLjEwMS0xLjgxNiAwLS41OS0uMDktMS4wMzQtLjI3LTEuMzI5LS4xODItLjI5NS0uNDY1LS40NDMtLjg1Mi0uNDQzem01LjU3IDEuNzk0YzAgLjU5NC4wOTggMS4wNDQuMjkzIDEuMzQ4LjE5Ni4zMDQuNTEzLjQ1Ny45NTQuNDU3LjQzNyAwIC43NS0uMTUyLjk0Mi0uNDU0LjE5Mi0uMzAzLjI4OC0uNzUzLjI4OC0xLjM1MSAwLS41OTUtLjA5Ny0xLjA0LS4yOS0xLjMzOC0uMTk0LS4yOTctLjUxLS40NDUtLjk1LS40NDUtLjQzOCAwLS43NTMuMTQ3LS45NDYuNDQzLS4xOTQuMjk1LS4yOS43NDItLjI5IDEuMzR6bTQuMTUzIDBjMCAuOTc3LS4yNTggMS43NDItLjc3NCAyLjI5My0uNTE1LjU1Mi0xLjIzMy44MjctMi4xNTQuODI3LS41NzYgMC0xLjA4NS0uMTI2LTEuNTI1LS4zNzhhMi41MiAyLjUyIDAgMCAxLTEuMDE1LTEuMDg4Yy0uMjM3LS40NzMtLjM1NS0xLjAyNC0uMzU1LTEuNjU0IDAtLjk4MS4yNTYtMS43NDQuNzY4LTIuMjg4LjUxMi0uNTQ1IDEuMjMyLS44MTcgMi4xNi0uODE3LjU3NiAwIDEuMDg1LjEyNiAxLjUyNS4zNzYuNDQuMjUxLjc3OS42MSAxLjAxNSAxLjA4LjIzNi40NjkuMzU1IDEuMDE5LjM1NSAxLjY0OXpNMTkuNzEgMjRsLS40NjItMi4xLS42MjMtMi42NTNoLS4wMzdMMTcuNDkzIDI0SDE1LjczbC0xLjcwOC02LjAwNWgxLjYzM2wuNjkzIDIuNjU5Yy4xMS40NzYuMjI0IDEuMTMzLjMzOCAxLjk3MWguMDMyYy4wMTUtLjI3Mi4wNzctLjcwNC4xODgtMS4yOTRsLjA4Ni0uNDU3Ljc0Mi0yLjg3OWgxLjgwNGwuNzA0IDIuODc5Yy4wMTQuMDc5LjAzNy4xOTUuMDY3LjM1YTIwLjk5OCAyMC45OTggMCAwIDEgLjE2NyAxLjAwMmMuMDIzLjE2NS4wMzYuMjk5LjA0LjM5OWguMDMyYy4wMzItLjI1OC4wOS0uNjExLjE3Mi0xLjA2LjA4Mi0uNDUuMTQxLS43NTQuMTc3LS45MTFsLjcyLTIuNjU5aDEuNjA2TDIxLjQ5NCAyNGgtMS43ODN6bTcuMDg2LTQuOTUyYy0uMzQ4IDAtLjYyLjExLS44MTcuMzMtLjE5Ny4yMi0uMzEuNTMzLS4zMzguOTM3aDIuMjk5Yy0uMDA4LS40MDQtLjExMy0uNzE3LS4zMTctLjkzNy0uMjA0LS4yMi0uNDgtLjMzLS44MjctLjMzem0uMjMgNS4wNmMtLjk2NiAwLTEuNzIyLS4yNjctMi4yNjYtLjgtLjU0NC0uNTM0LS44MTYtMS4yOS0uODE2LTIuMjY3IDAtMS4wMDcuMjUxLTEuNzg1Ljc1NC0yLjMzNC41MDMtLjU1IDEuMTk5LS44MjUgMi4wODctLjgyNS44NDggMCAxLjUxLjI0MiAxLjk4Mi43MjUuNDcyLjQ4NC43MDkgMS4xNTIuNzA5IDIuMDA0di43OTVoLTMuODczYy4wMTguNDY1LjE1Ni44MjkuNDE0IDEuMDkuMjU4LjI2MS42Mi4zOTIgMS4wODUuMzkyLjM2MSAwIC43MDMtLjAzNyAxLjAyNi0uMTEzYTUuMTMzIDUuMTMzIDAgMCAwIDEuMDEtLjM2djEuMjY4Yy0uMjg3LjE0My0uNTkzLjI1LS45Mi4zMmE1Ljc5IDUuNzkgMCAwIDEtMS4xOTEuMTA0em03LjI1My02LjIyNmMuMjIyIDAgLjQwNi4wMTYuNTUzLjA0OWwtLjEyNCAxLjUzNmExLjg3NyAxLjg3NyAwIDAgMC0uNDgzLS4wNTRjLS41MjMgMC0uOTMuMTM0LTEuMjIyLjQwMy0uMjkyLjI2OC0uNDM4LjY0NC0uNDM4IDEuMTI4VjI0aC0xLjYzOHYtNi4wMDVoMS4yNGwuMjQyIDEuMDFoLjA4Yy4xODctLjMzNy40MzktLjYwOC43NTYtLjgxNGExLjg2IDEuODYgMCAwIDEgMS4wMzQtLjMwOXptNC4wMjkgMS4xNjZjLS4zNDcgMC0uNjIuMTEtLjgxNy4zMy0uMTk3LjIyLS4zMS41MzMtLjMzOC45MzdoMi4yOTljLS4wMDctLjQwNC0uMTEzLS43MTctLjMxNy0uOTM3LS4yMDQtLjIyLS40OC0uMzMtLjgyNy0uMzN6bS4yMyA1LjA2Yy0uOTY2IDAtMS43MjItLjI2Ny0yLjI2Ni0uOC0uNTQ0LS41MzQtLjgxNi0xLjI5LS44MTYtMi4yNjcgMC0xLjAwNy4yNTEtMS43ODUuNzU0LTIuMzM0LjUwNC0uNTUgMS4yLS44MjUgMi4wODctLjgyNS44NDkgMCAxLjUxLjI0MiAxLjk4Mi43MjUuNDczLjQ4NC43MDkgMS4xNTIuNzA5IDIuMDA0di43OTVoLTM
+... (truncated)
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:24:51Z)**_
+
+`terms.html` is still carrying the raw embed markup, so I’m replacing it with the same clean shell structure used by `index.html` while keeping it as the Terms page.
+
+---
+
+_**User (2026-04-08 12:27:44Z)**_
+
+fix terms
+
+
+---
+
+_**Agent (gpt-5.4 2026-04-08 12:27:48Z)**_
+
+I’m fixing `terms.html` directly now and making it match the clean layout used on `index.html` instead of the broken embedded markup.
+
+_**Agent (gpt-5.4 2026-04-08 12:27:48Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,80p' terms.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,80p' terms.html"
+Chunk ID: 0524e2
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 426
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --accent-color: #3498db;
+      --bg-color: #f4f7f6;
+      --text-color: #333;
+    }
+    body {
+      font-family:
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.7;
+      color: var(--text-color);
+      background-color: var(--bg-color);
+      margin: 0;
+      padding: 20px;
+    }
+    nav {
+      text-align: center;
+      background: #f0f0f0;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #2c3e50;
+    }
+    .policy-container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 50px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+    .page-logo {
+      max-width: 150px;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    h1 {
+      color: var(--primary-color);
+      font-size: 2.5rem;
+      border-bottom: 3px solid var(--accent-color);
+      padding-bottom: 15px;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 1.2rem;
+      color: #7f8c8d;
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: var(--primary-color);
+      margin-top: 40px;
+      font-size: 1.6rem;
+      border-left: 5px solid var(--accent-color);
+      padding-left: 15px;
+    }
+    h3 {
+      color: #2c3e50;
+      margin-top: 25px;
+    }
+    h4 {
+      color: #34495e;
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:27:48Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,220p' term.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,220p' term.html"
+Chunk ID: 492c67
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 93
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=terms.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting to Terms & Conditions</title>
+  </head>
+  <body>
+    <p>Redirecting to <a href="terms.html">Terms & Conditions</a>.</p>
+  </body>
+</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:27:52Z)**_
+
+I confirmed `terms.html` is the page that needs the cleanup, and `term.html` is just the redirect. I’m replacing the broken terms file with a clean version that matches the rest of the site.
+
+_**Agent (gpt-5.4 2026-04-08 12:28:30Z)**_
+
+<tool-use data-tool-type="write" data-tool-name="apply_patch"><details>
+<summary>Tool use: **apply_patch**</summary>
+**Delete: `/home/joe/Videos/Code/new/privacy/terms.html`**
+
+**Add: `/home/joe/Videos/Code/new/privacy/terms.html`**
+
+```diff
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Terms & Conditions - Elimu Pepe</title>
++    <style>
++      :root {
++        --primary-color: #2c3e50;
++        --accent-color: #3498db;
++        --bg-color: #f4f7f6;
++        --text-color: #333;
++      }
++      body {
++        font-family:
++          "Inter",
++          -apple-system,
++          BlinkMacSystemFont,
++          "Segoe UI",
++          Roboto,
++          Helvetica,
++          Arial,
++          sans-serif;
++        line-height: 1.7;
++        color: var(--text-color);
++        background-color: var(--bg-color);
++        margin: 0;
++        padding: 20px;
++      }
++      nav {
++        text-align: center;
++        background: #f0f0f0;
++        padding: 10px;
++      }
++      nav a {
++        margin: 0 15px;
++        text-decoration: none;
++        color: #2c3e50;
++      }
++      .policy-container {
++        max-width: 900px;
++        margin: 40px auto;
++        background: #fff;
++        padding: 50px;
++        border-radius: 12px;
++        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
++      }
++      .page-logo {
++        max-width: 150px;
++        height: auto;
++        display: block;
++        margin: 0 auto 20px;
++      }
++      h1 {
++        color: var(--primary-color);
++        font-size: 2.5rem;
++        border-bottom: 3px solid var(--accent-color);
++        padding-bottom: 15px;
++        margin-bottom: 10px;
++      }
++      .subtitle {
++        font-size: 1.2rem;
++        color: #7f8c8d;
++        margin-bottom: 40px;
++      }
++      h2 {
++        color: var(--primary-color);
++        margin-top: 40px;
++        font-size: 1.6rem;
++        border-left: 5px solid var(--accent-color);
++        padding-left: 15px;
++      }
++      h3 {
++        color: #2c3e50;
++        margin-top: 25px;
++      }
++      h4 {
++        color: #34495e;
++        text-decoration: underline;
++      }
++      p,
++      li {
++        font-size: 1.05rem;
++        margin-bottom: 15px;
++      }
++      ul {
++        padding-left: 20px;
++      }
++      a {
++        color: var(--accent-color);
++      }
++      .footer-note {
++        text-align: center;
++        margin-top: 50px;
++        font-size: 0.9rem;
++        color: #95a5a6;
++      }
++      @media (max-width: 600px) {
++        .policy-container {
++          padding: 20px;
++          margin: 10px;
++        }
++        h1 {
++          font-size: 1.8rem;
++        }
++      }
++    </style>
++  </head>
++  <body>
++    <nav>
++      <a href="index.html">Privacy Policy</a>
++      <a href="terms.html">Terms & Conditions</a>
++    </nav>
++    <div class="policy-container">
++      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
++      <h1>Terms & Conditions</h1>
++      <p class="subtitle">Your Agreement with Us</p>
++      <p><strong>Last Updated: April 08, 2026</strong></p>
++
++      <section>
++        <div class="container">
++          <h2>1. Introduction</h2>
++          <p>
++            Welcome to <strong>Elimu Pepe</strong>, an educational platform that
++            provides digital learning content, competitions (Elimu Quest), and
++            subscription-based access services.
++          </p>
++          <p>
++            By accessing or using our platform, you agree to these Terms and
++            Conditions. If you do not agree, please do not use the platform.
++          </p>
++
++          <h2>2. Eligibility</h2>
++          <ul>
++            <li>
++              You must be at least 18 years old or use the platform under a
++              parent or guardian account.
++            </li>
++            <li>Parents may create and manage learner accounts.</li>
++          </ul>
++
++          <h2>3. Account Registration</h2>
++          <ul>
++            <li>You agree to provide accurate and complete information.</li>
++            <li>
++              You are responsible for maintaining account confidentiality.
++            </li>
++            <li>
++              We may suspend accounts with false or misleading information.
++            </li>
++          </ul>
++
++          <h2>4. Subscription & Payments</h2>
++          <ul>
++            <li>Access to Elimu Pepe may require a paid subscription.</li>
++            <li>Payments may be made via airtime or M-Pesa.</li>
++            <li>Some plans auto-renew unless cancelled.</li>
++            <li>
++              You are responsible for ensuring sufficient balance for
++              auto-renewals.
++            </li>
++            <li>
++              Subscriptions are non-refundable once activated unless stated
++              otherwise.
++            </li>
++          </ul>
++
++          <h2>5. Service Access</h2>
++          <ul>
++            <li>
++              Access may depend on mobile network verification, including
++              Safaricom verification where applicable.
++            </li>
++            <li>We may restrict or suspend access if verification fails.</li>
++          </ul>
++
++          <h2>6. Acceptable Use</h2>
++          <p>You agree not to:</p>
++          <ul>
++            <li>Use the platform for illegal activities.</li>
++            <li>Attempt to hack, disrupt, or damage the system.</li>
++            <li>Share login credentials with unauthorized users.</li>
++            <li>Upload harmful or inappropriate content.</li>
++          </ul>
++
++          <h2>7. Intellectual Property</h2>
++          <p>
++            All content on Elimu Pepe, including courses, quizzes, and
++            materials, is owned by or licensed to us and protected by
++            applicable intellectual property laws.
++          </p>
++
++          <h2>8. User Content</h2>
++          <p>If you submit any content:</p>
++          <ul>
++            <li>You grant us the right to use it to improve our services.</li>
++            <li>You confirm you have permission to share such content.</li>
++          </ul>
++
++          <h2>9. Privacy</h2>
++          <p>
++            Your data is handled according to our
++            <a href="index.html">Privacy Policy</a>.
++          </p>
++
++          <h2>10. Service Availability</h2>
++          <p>
++            We strive to keep the platform available at all times but do not
++            guarantee uninterrupted service.
++          </p>
++
++          <h2>11. Limitation of Liability</h2>
++          <p>Elimu Pepe is not liable for:</p>
++          <ul>
++            <li>Service interruptions.</li>
++            <li>Loss of data.</li>
++            <li>Indirect or consequential damages.</li>
++          </ul>
++
++          <h2>12. Termination</h2>
++          <p>
++            We may suspend or terminate your account if you violate these
++            Terms.
++          </p>
++
++          <h2>13. Changes to Terms</h2>
++          <p>
++            We may update these Terms at any time. Continued use of the
++            platform means acceptance of the updated Terms.
++          </p>
++
++          <h2>14. Governing Law</h2>
++          <p>These Terms are governed by the laws of Kenya.</p>
++
++          <h2>15. Contact Us</h2>
++          <p>
++            <strong>Email:</strong>
++            <a href="mailto:support@loholearning.co.ke"
++              >support@loholearning.co.ke</a
++            >
++          </p>
++          <p>
++            <strong>Website:</strong>
++            <a href="https://loho-stack.github.io/app-policies/terms.html"
++              >https://loho-stack.github.io/app-policies/terms.html</a
++            >
++          </p>
++        </div>
++      </section>
++
++      <p class="footer-note">© 2026 Loho Learning. All rights reserved.</p>
++    </div>
++  </body>
++</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:28:35Z)**_
+
+The replacement is in place. I’m doing a quick readback to verify `terms.html` now uses the same clean structure and styling as the other pages.
+
+_**Agent (gpt-5.4 2026-04-08 12:28:35Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,180p' terms.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,180p' terms.html"
+Chunk ID: d3f881
+Wall time: 0.1020 seconds
+Process exited with code 0
+Original token count: 1245
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms & Conditions - Elimu Pepe</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --accent-color: #3498db;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+      nav {
+        text-align: center;
+        background: #f0f0f0;
+        padding: 10px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      .policy-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .page-logo {
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+      }
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 40px;
+      }
+      h2 {
+        color: var(--primary-color);
+        margin-top: 40px;
+        font-size: 1.6rem;
+        border-left: 5px solid var(--accent-color);
+        padding-left: 15px;
+      }
+      h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+      }
+      h4 {
+        color: #34495e;
+        text-decoration: underline;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--accent-color);
+      }
+      .footer-note {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #95a5a6;
+      }
+      @media (max-width: 600px) {
+        .policy-container {
+          padding: 20px;
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <h1>Terms & Conditions</h1>
+      <p class="subtitle">Your Agreement with Us</p>
+      <p><strong>Last Updated: April 08, 2026</strong></p>
+
+      <section>
+        <div class="container">
+          <h2>1. Introduction</h2>
+          <p>
+            Welcome to <strong>Elimu Pepe</strong>, an educational platform that
+            provides digital learning content, competitions (Elimu Quest), and
+            subscription-based access services.
+          </p>
+          <p>
+            By accessing or using our platform, you agree to these Terms and
+            Conditions. If you do not agree, please do not use the platform.
+          </p>
+
+          <h2>2. Eligibility</h2>
+          <ul>
+            <li>
+              You must be at least 18 years old or use the platform under a
+              parent or guardian account.
+            </li>
+            <li>Parents may create and manage learner accounts.</li>
+          </ul>
+
+          <h2>3. Account Registration</h2>
+          <ul>
+            <li>You agree to provide accurate and complete information.</li>
+            <li>
+              You are responsible for maintaining account confidentiality.
+            </li>
+            <li>
+              We may suspend accounts with false or misleading information.
+            </li>
+          </ul>
+
+          <h2>4. Subscription & Payments</h2>
+          <ul>
+            <li>Access to Elimu Pepe may require a paid subscription.</li>
+            <li>Payments may be made via airtime or M-Pesa.</li>
+            <li>Some plans auto-renew unless cancelled.</li>
+            <li>
+              You are responsible for ensuring sufficient balance for
+              auto-renewals.
+            </li>
+            <li>
+              Subscriptions are non-refundable once activated unless stated
+              otherwise.
+            </li>
+          </ul>
+
+          <h2>5. Service Access</h2>
+          <ul>
+            <li>
+              Access may depend on mobile network verification, including
+              Safaricom verification where applicable.
+            </li>
+            <li>We may restrict or suspend access if verification fails.</li>
+          </ul>
+
+          <h2>
+... (truncated)
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:28:35Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `tail -n 40 terms.html`</summary>
+```
+Command: /bin/bash -lc 'tail -n 40 terms.html'
+Chunk ID: 181b67
+Wall time: 0.0511 seconds
+Process exited with code 0
+Original token count: 299
+Output:
+            <li>Service interruptions.</li>
+            <li>Loss of data.</li>
+            <li>Indirect or consequential damages.</li>
+          </ul>
+
+          <h2>12. Termination</h2>
+          <p>
+            We may suspend or terminate your account if you violate these
+            Terms.
+          </p>
+
+          <h2>13. Changes to Terms</h2>
+          <p>
+            We may update these Terms at any time. Continued use of the
+            platform means acceptance of the updated Terms.
+          </p>
+
+          <h2>14. Governing Law</h2>
+          <p>These Terms are governed by the laws of Kenya.</p>
+
+          <h2>15. Contact Us</h2>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:support@loholearning.co.ke"
+              >support@loholearning.co.ke</a
+            >
+          </p>
+          <p>
+            <strong>Website:</strong>
+            <a href="https://loho-stack.github.io/app-policies/terms.html"
+              >https://loho-stack.github.io/app-policies/terms.html</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <p class="footer-note">© 2026 Loho Learning. All rights reserved.</p>
+    </div>
+  </body>
+</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 12:28:38Z)**_
+
+`terms.html` is fixed and now uses the same clean structure as `index.html`: matching nav, centered card layout, logo, heading style, spacing, colors, and footer.
+
+Updated file: [terms.html](/home/joe/Videos/Code/new/privacy/terms.html)
+
+If you want, I can also make the top section match `index.html` even more closely by changing the terms heading block to the same subtitle-first layout style used on the privacy page.
+
+---
+
+_**User (2026-04-08 13:07:12Z)**_
+
+
+# Files mentioned by the user:
+
+## ElimuPepe_Privacy_Policy.docx (2).html: /home/joe/Videos/Code/new/privacy/ElimuPepe_Privacy_Policy.docx (2).html
+
+## ElimuPepe_Terms_and_Conditions.docx.html: /home/joe/Videos/Code/new/privacy/ElimuPepe_Terms_and_Conditions.docx.html
+
+## index.html: /home/joe/Videos/Code/new/privacy/index.html
+
+## My request for Codex:
+fix the css to match index.html in both files
+
+
+---
+
+_**Agent (gpt-5.4 2026-04-08 13:07:21Z)**_
+
+I’m syncing both exported `.html` files to the same CSS and page shell as `index.html`, then I’ll leave their document content in place inside the matching layout.
+
+_**Agent (gpt-5.4 2026-04-08 13:07:21Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,220p' 'ElimuPepe_Privacy_Policy.docx (2).html'`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,220p' 'ElimuPepe_Privacy_Policy.docx (2).html'"
+Chunk ID: c8c88f
+Wall time: 0.0098 seconds
+Process exited with code 0
+Original token count: 5007
+Output:
+<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">.lst-kix_list_2-6>li:before{content:" "}.lst-kix_list_2-7>li:before{content:" "}ul.lst-kix_list_1-0{list-style-type:none}.lst-kix_list_2-4>li:before{content:" "}.lst-kix_list_2-5>li:before{content:" "}.lst-kix_list_2-8>li:before{content:" "}ul.lst-kix_list_2-8{list-style-type:none}ul.lst-kix_list_1-3{list-style-type:none}ul.lst-kix_list_2-2{list-style-type:none}.lst-kix_list_1-0>li:before{content:"\0025cf   "}ul.lst-kix_list_1-4{list-style-type:none}ul.lst-kix_list_2-3{list-style-type:none}ul.lst-kix_list_1-1{list-style-type:none}ul.lst-kix_list_2-0{list-style-type:none}ul.lst-kix_list_1-2{list-style-type:none}ul.lst-kix_list_2-1{list-style-type:none}ul.lst-kix_list_1-7{list-style-type:none}ul.lst-kix_list_2-6{list-style-type:none}.lst-kix_list_1-1>li:before{content:"\0025cb   "}.lst-kix_list_1-2>li:before{content:"\0025a0   "}ul.lst-kix_list_1-8{list-style-type:none}ul.lst-kix_list_2-7{list-style-type:none}ul.lst-kix_list_1-5{list-style-type:none}ul.lst-kix_list_2-4{list-style-type:none}ul.lst-kix_list_1-6{list-style-type:none}ul.lst-kix_list_2-5{list-style-type:none}.lst-kix_list_1-3>li:before{content:"\0025cf   "}.lst-kix_list_1-4>li:before{content:"\0025cb   "}.lst-kix_list_1-7>li:before{content:"\0025cf   "}.lst-kix_list_1-5>li:before{content:"\0025a0   "}.lst-kix_list_1-6>li:before{content:"\0025cf   "}li.li-bullet-0:before{margin-left:-18pt;white-space:nowrap;display:inline-block;min-width:18pt}.lst-kix_list_2-0>li:before{content:"\002022   "}.lst-kix_list_2-1>li:before{content:" "}.lst-kix_list_1-8>li:before{content:"\0025cf   "}.lst-kix_list_2-2>li:before{content:" "}.lst-kix_list_2-3>li:before{content:" "}ol{margin:0;padding:0}table td,table th{padding:0}.c3{padding-top:18pt;border-bottom-color:#1a73a7;border-bottom-width:0.5pt;padding-bottom:4pt;line-height:1.0;border-bottom-style:solid;orphans:2;widows:2;text-align:left}.c12{padding-top:0pt;border-bottom-color:#1a73a7;border-bottom-width:0.8pt;padding-bottom:6pt;line-height:1.0;border-bottom-style:solid;orphans:2;widows:2;text-align:center}.c25{padding-top:6pt;border-top-width:0.5pt;border-top-color:#1a73a7;padding-bottom:4pt;line-height:1.0;orphans:2;border-top-style:solid;widows:2;text-align:center}.c1{margin-left:36pt;padding-top:3pt;padding-left:0pt;padding-bottom:3pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c23{-webkit-text-decoration-skip:none;color:#1a73a7;font-weight:400;text-decoration:underline;text-decoration-skip-ink:none;font-size:10pt;font-family:"Arial"}.c21{-webkit-text-decoration-skip:none;color:#1a73a7;font-weight:400;text-decoration:underline;text-decoration-skip-ink:none;font-size:11pt;font-family:"Arial"}.c10{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c5{color:#333333;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c7{padding-top:3pt;padding-bottom:3pt;line-height:1.0;orphans:2;widows:2;text-align:left;height:11pt}.c17{padding-top:0pt;padding-bottom:4pt;line-height:1.0;orphans:2;widows:2;text-align:center}.c8{padding-top:0pt;padding-bottom:12pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c22{padding-top:12pt;padding-bottom:4pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c11{padding-top:4pt;padding-bottom:4pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c19{padding-top:0pt;padding-bottom:0pt;line-height:1.0;orphans:2;widows:2;text-align:center}.c26{padding-top:6pt;padding-bottom:3pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c18{font-size:9pt;font-family:"Arial";font-style:italic;color:#888888;font-weight:400}.c27{font-size:16pt;font-family:"Arial";color:#1a2e3b;font-weight:700}.c20{font-size:12pt;font-family:"Arial";color:#666666;font-weight:400}.c0{font-size:10pt;font-family:"Arial";color:#555555;font-weight:400}.c24{font-size:10pt;font-family:"Arial";color:#aaaaaa;font-weight:400}.c29{font-size:24pt;font-family:"Arial";color:#1a73a7;font-weight:700}.c13{font-size:12pt;font-family:"Arial";color:#1a2e3b;font-weight:700}.c15{font-size:10pt;font-family:"Arial";color:#555555;font-weight:700}.c30{font-size:9pt;font-family:"Arial";color:#888888;font-weight:400}.c4{font-size:14pt;font-family:"Arial";color:#1a73a7;font-weight:700}.c9{font-size:11pt;font-family:"Arial";color:#333333;font-weight:400}.c6{font-size:11pt;font-weight:700;font-family:"Arial"}.c28{font-size:11pt;font-weight:400;font-family:"Arial"}.c14{text-decoration:none;vertical-align:baseline;font-style:normal}.c2{background-color:#ffffff;max-width:451.3pt;padding:72pt 72pt 72pt 72pt}.c16{padding:0;margin:0}.title{padding-top:0pt;color:#000000;font-size:28pt;padding-bottom:0pt;font-family:"Ari
+... (truncated)
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 13:07:22Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,220p' 'ElimuPepe_Terms_and_Conditions.docx.html'`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,220p' 'ElimuPepe_Terms_and_Conditions.docx.html'"
+Chunk ID: bd26cb
+Wall time: 0.0001 seconds
+Process exited with code 0
+Original token count: 5748
+Output:
+<html><head><meta content="text/html; charset=UTF-8" http-equiv="content-type"><style type="text/css">.lst-kix_list_2-6>li:before{content:" "}.lst-kix_list_2-7>li:before{content:" "}ul.lst-kix_list_1-0{list-style-type:none}.lst-kix_list_2-4>li:before{content:" "}.lst-kix_list_2-5>li:before{content:" "}.lst-kix_list_2-8>li:before{content:" "}ul.lst-kix_list_2-8{list-style-type:none}ul.lst-kix_list_1-3{list-style-type:none}ul.lst-kix_list_2-2{list-style-type:none}.lst-kix_list_1-0>li:before{content:"\0025cf   "}ul.lst-kix_list_1-4{list-style-type:none}ul.lst-kix_list_2-3{list-style-type:none}ul.lst-kix_list_1-1{list-style-type:none}ul.lst-kix_list_2-0{list-style-type:none}ul.lst-kix_list_1-2{list-style-type:none}ul.lst-kix_list_2-1{list-style-type:none}ul.lst-kix_list_1-7{list-style-type:none}ul.lst-kix_list_2-6{list-style-type:none}.lst-kix_list_1-1>li:before{content:"\0025cb   "}.lst-kix_list_1-2>li:before{content:"\0025a0   "}ul.lst-kix_list_1-8{list-style-type:none}ul.lst-kix_list_2-7{list-style-type:none}ul.lst-kix_list_1-5{list-style-type:none}ul.lst-kix_list_2-4{list-style-type:none}ul.lst-kix_list_1-6{list-style-type:none}ul.lst-kix_list_2-5{list-style-type:none}.lst-kix_list_1-3>li:before{content:"\0025cf   "}.lst-kix_list_1-4>li:before{content:"\0025cb   "}.lst-kix_list_1-7>li:before{content:"\0025cf   "}.lst-kix_list_1-5>li:before{content:"\0025a0   "}.lst-kix_list_1-6>li:before{content:"\0025cf   "}li.li-bullet-0:before{margin-left:-18pt;white-space:nowrap;display:inline-block;min-width:18pt}.lst-kix_list_2-0>li:before{content:"\002022   "}.lst-kix_list_2-1>li:before{content:" "}.lst-kix_list_1-8>li:before{content:"\0025cf   "}.lst-kix_list_2-2>li:before{content:" "}.lst-kix_list_2-3>li:before{content:" "}ol{margin:0;padding:0}table td,table th{padding:0}.c10{padding-top:18pt;border-bottom-color:#1a73a7;border-bottom-width:0.5pt;padding-bottom:4pt;line-height:1.0;border-bottom-style:solid;orphans:2;widows:2;text-align:left}.c18{padding-top:6pt;border-top-width:0.5pt;border-top-color:#1a73a7;padding-bottom:4pt;line-height:1.0;orphans:2;border-top-style:solid;widows:2;text-align:center}.c29{padding-top:0pt;border-bottom-color:#1a73a7;border-bottom-width:0.8pt;padding-bottom:6pt;line-height:1.0;border-bottom-style:solid;orphans:2;widows:2;text-align:center}.c0{margin-left:36pt;padding-top:3pt;padding-left:0pt;padding-bottom:3pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c2{color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c16{-webkit-text-decoration-skip:none;color:#1a73a7;font-weight:400;text-decoration:underline;text-decoration-skip-ink:none;font-size:10pt;font-family:"Arial"}.c6{padding-top:3pt;padding-bottom:3pt;line-height:1.0;orphans:2;widows:2;text-align:left;height:11pt}.c1{color:#333333;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:"Arial";font-style:normal}.c27{padding-top:6pt;padding-bottom:3pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c28{padding-top:0pt;padding-bottom:0pt;line-height:1.0;orphans:2;widows:2;text-align:center}.c15{padding-top:4pt;padding-bottom:8pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c5{padding-top:0pt;padding-bottom:4pt;line-height:1.0;orphans:2;widows:2;text-align:center}.c3{padding-top:4pt;padding-bottom:4pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c23{padding-top:0pt;padding-bottom:14pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c25{padding-top:12pt;padding-bottom:4pt;line-height:1.0;orphans:2;widows:2;text-align:left}.c19{font-size:9pt;font-family:"Arial";font-style:italic;color:#888888;font-weight:400}.c26{-webkit-text-decoration-skip:none;color:#1a73a7;text-decoration:underline;text-decoration-skip-ink:none}.c7{font-size:12pt;font-family:"Arial";color:#1a2e3b;font-weight:700}.c31{font-size:10pt;font-family:"Arial";color:#aaaaaa;font-weight:400}.c20{font-size:24pt;font-family:"Arial";color:#1a73a7;font-weight:700}.c22{font-size:9pt;font-family:"Arial";color:#888888;font-weight:400}.c17{font-size:10pt;font-family:"Arial";color:#555555;font-weight:700}.c13{font-size:16pt;font-family:"Arial";color:#1a2e3b;font-weight:700}.c14{font-size:10pt;font-family:"Arial";color:#555555;font-weight:400}.c21{font-size:12pt;font-family:"Arial";color:#666666;font-weight:400}.c11{font-size:14pt;font-family:"Arial";color:#1a73a7;font-weight:700}.c9{font-size:11pt;font-family:"Arial";color:#333333;font-weight:400}.c8{font-size:11pt;font-weight:700;font-family:"Arial"}.c12{text-decoration:none;vertical-align:baseline;font-style:normal}.c30{background-color:#ffffff;max-width:451.3pt;padding:72pt 72pt 72pt 72pt}.c24{font-size:11pt;font-weight:400;font-family:"Arial"}.c4{padding:0;margin:0}.title{padding-top:0pt;color:#000000;font-siz
+... (truncated)
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 13:07:22Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,180p' index.html`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,180p' index.html"
+Chunk ID: aa0cdb
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 1288
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Elimu Pepe</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --accent-color: #3498db;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+      nav {
+        text-align: center;
+        background: #f0f0f0;
+        padding: 10px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      .policy-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .page-logo {
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+      }
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 40px;
+      }
+      h2 {
+        color: var(--primary-color);
+        margin-top: 40px;
+        font-size: 1.6rem;
+        border-left: 5px solid var(--accent-color);
+        padding-left: 15px;
+      }
+      h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+      }
+      h4 {
+        color: #34495e;
+        text-decoration: underline;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--accent-color);
+      }
+      .highlight-box {
+        background-color: #e8f4fd;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #d1e9f9;
+        margin: 20px 0;
+      }
+      .footer-note {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #95a5a6;
+      }
+      @media (max-width: 600px) {
+        .policy-container {
+          padding: 20px;
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <p class="subtitle">Your Privacy is Our Priority</p>
+      <div>
+        <strong
+          ><span style="font-size: 26px"
+            ><span data-custom-class="title"
+              ><bdt class="block-component"></bdt
+              ><bdt class="question"><h1>PRIVACY POLICY</h1></bdt
+              ><bdt class="statement-end-if-in-editor"></bdt></span></span
+        ></strong>
+      </div>
+      <div>
+        <span style="color: rgb(127, 127, 127)"
+          ><strong
+            ><span style="font-size: 15px"
+              ><span data-custom-class="subtitle"
+                >Last updated <bdt class="question">April 08, 2026</bdt></span
+              ></span
+            ></strong
+          ></span
+        >
+      </div>
+      <div><br /></div>
+      <div><br /></div>
+      <div><br /></div>
+      <div style="line-height: 1.5">
+        <span style="color: rgb(127, 127, 127)"
+          ><span style="color: rgb(89, 89, 89); font-size: 15px"
+            ><span data-custom-class="body_text"
+              >This Privacy Notice for
+              <bdt class="question noTranslate">elimupepe</bdt
+              ><bdt class="block-component"></bdt> (<bdt
+                class="block-component"
+              ></bdt
+              >"<strong>we</strong>," "<strong>us</strong>," or
+              "<strong>our</strong>"<bdt
+                class="statement-end-if-in-editor"
+              ></bdt></span
+            ><span data-custom-class="body_text"
+              >), describes how and why we might access, collect, store, use,
+              and/or share (<bdt class="block-component"></bdt
+              >"<strong>process</strong>"<bdt
+                class="statement-end-if-in-editor"
+              ></bdt
+              >) your personal information when you use our services (<bdt
+                class="block-component"
+              ></bdt
+              >"<strong>Services</strong>"<bdt
+                class="statement-end-if-in-editor"
+              ></bdt
+              >), including when you:</span
+
+... (truncated)
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 13:07:28Z)**_
+
+I’ve got both exports: they’re using heavy Google Docs CSS, so the cleanest fix is to rebuild each file with `index.html`’s styling and keep the document text in a normal readable structure.
+
+_**Agent (gpt-5.4 2026-04-08 13:09:59Z)**_
+
+<tool-use data-tool-type="write" data-tool-name="apply_patch"><details>
+<summary>Tool use: **apply_patch**</summary>
+**Delete: `/home/joe/Videos/Code/new/privacy/ElimuPepe_Privacy_Policy.docx (2).html`**
+
+**Add: `/home/joe/Videos/Code/new/privacy/ElimuPepe_Privacy_Policy.docx (2).html`**
+
+```diff
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Privacy Policy - Elimu Pepe</title>
++    <style>
++      :root {
++        --primary-color: #2c3e50;
++        --accent-color: #3498db;
++        --bg-color: #f4f7f6;
++        --text-color: #333;
++      }
++      body {
++        font-family:
++          "Inter",
++          -apple-system,
++          BlinkMacSystemFont,
++          "Segoe UI",
++          Roboto,
++          Helvetica,
++          Arial,
++          sans-serif;
++        line-height: 1.7;
++        color: var(--text-color);
++        background-color: var(--bg-color);
++        margin: 0;
++        padding: 20px;
++      }
++      nav {
++        text-align: center;
++        background: #f0f0f0;
++        padding: 10px;
++      }
++      nav a {
++        margin: 0 15px;
++        text-decoration: none;
++        color: #2c3e50;
++      }
++      .policy-container {
++        max-width: 900px;
++        margin: 40px auto;
++        background: #fff;
++        padding: 50px;
++        border-radius: 12px;
++        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
++      }
++      .page-logo {
++        max-width: 150px;
++        height: auto;
++        display: block;
++        margin: 0 auto 20px;
++      }
++      h1 {
++        color: var(--primary-color);
++        font-size: 2.5rem;
++        border-bottom: 3px solid var(--accent-color);
++        padding-bottom: 15px;
++        margin-bottom: 10px;
++      }
++      .subtitle {
++        font-size: 1.2rem;
++        color: #7f8c8d;
++        margin-bottom: 40px;
++      }
++      h2 {
++        color: var(--primary-color);
++        margin-top: 40px;
++        font-size: 1.6rem;
++        border-left: 5px solid var(--accent-color);
++        padding-left: 15px;
++      }
++      h3 {
++        color: #2c3e50;
++        margin-top: 25px;
++      }
++      h4 {
++        color: #34495e;
++        text-decoration: underline;
++      }
++      p,
++      li {
++        font-size: 1.05rem;
++        margin-bottom: 15px;
++      }
++      ul {
++        padding-left: 20px;
++      }
++      a {
++        color: var(--accent-color);
++      }
++      .footer-note {
++        text-align: center;
++        margin-top: 50px;
++        font-size: 0.9rem;
++        color: #95a5a6;
++      }
++      @media (max-width: 600px) {
++        .policy-container {
++          padding: 20px;
++          margin: 10px;
++        }
++        h1 {
++          font-size: 1.8rem;
++        }
++      }
++    </style>
++  </head>
++  <body>
++    <nav>
++      <a href="index.html">Privacy Policy</a>
++      <a href="terms.html">Terms & Conditions</a>
++    </nav>
++    <div class="policy-container">
++      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
++      <p class="subtitle">Your Privacy is Our Priority</p>
++      <h1>Privacy Policy</h1>
++      <p><strong>Effective Date:</strong> April 8, 2026</p>
++      <p><strong>Last Updated:</strong> April 8, 2026</p>
++      <p>
++        <strong>App Version:</strong> Android (WebView)
++        <strong> | Support:</strong>
++        <a href="mailto:support@loholearning.co.ke"
++          >support@loholearning.co.ke</a
++        >
++      </p>
++
++      <h2>1. Introduction</h2>
++      <p>
++        Loho Learning Ltd ("we", "us", or "our") operates the Elimu Pepe
++        mobile application (the "App"). This Privacy Policy explains how we
++        collect, use, disclose, and protect information about users of our App,
++        including parents, guardians, and children.
++      </p>
++      <p>
++        Elimu Pepe is an educational platform designed to support Kenya's
++        Competency Based Curriculum (CBC). Our App is intended for use by
++        learners of all ages, including children under the age of 13, under
++        parental or guardian supervision.
++      </p>
++      <p>
++        By downloading or using the App, you agree to the collection and use
++        of information as described in this Privacy Policy.
++      </p>
++
++      <h2>2. Information We Collect</h2>
++      <p>We collect the following categories of information:</p>
++
++      <h3>2.1 Information You Provide</h3>
++      <ul>
++        <li>Full name and profile information (parent/guardian or learner)</li>
++        <li>
++          Phone number (used for Safaricom carrier billing / subscription
++          authentication)
++        </li>
++        <li>School name and grade/class level</li>
++        <li>Account credentials (username and password, if applicable)</li>
++      </ul>
++
++      <h3>2.2 Information Collected Automatically</h3>
++      <ul>
++        <li>
++          Device information: device type, operating system version, unique
++          device identifiers
++        </li>
++        <li>
++          Learning progress and quiz scores (used to personalise and track
++          educational outcomes)
++        </li>
++        <li>App usage data: pages visited, features used, session duration</li>
++        <li>Log data: IP address, timestamps, error logs</li>
++      </ul>
++
++      <h3>2.3 Information from Third Parties</h3>
++      <ul>
++        <li>
++          Subscription status and billing data from Safaricom (via Direct
++          Carrier Billing). We do not store full payment details.
++        </li>
++        <li>
++          Analytics data from Facebook Pixel on our web platform (not within
++          the App itself)
++        </li>
++      </ul>
++
++      <p>
++        We do NOT collect: precise GPS location, contacts, camera/microphone
++        data, or financial account details.
++      </p>
++
++      <h2>3. How We Use Your Information</h2>
++      <p>We use the information we collect to:</p>
++      <ul>
++        <li>Create and manage your account</li>
++        <li>Process and verify your Safaricom subscription</li>
++        <li>
++          Personalise the learning experience based on grade level and progress
++        </li>
++        <li>
++          Track and display learning achievements, badges, and leaderboard
++          rankings
++        </li>
++        <li>
++          Send important service notifications (e.g. subscription renewal,
++          account alerts)
++        </li>
++        <li>
++          Improve App performance, diagnose technical issues, and conduct
++          internal analytics
++        </li>
++        <li>Ensure the safety and integrity of the platform</li>
++        <li>Comply with applicable legal obligations</li>
++      </ul>
++      <p>
++        We do NOT sell your personal data to third parties or use it for
++        targeted advertising within the App.
++      </p>
++
++      <h2>4. Children's Privacy (Under 13)</h2>
++      <p>
++        Elimu Pepe is used by learners including children under the age of 13.
++        We are committed to protecting the privacy of children. The following
++        safeguards apply:
++      </p>
++      <ul>
++        <li>
++          Children's accounts are created and managed by a parent or guardian
++          who accepts this Privacy Policy on their behalf.
++        </li>
++        <li>
++          We collect only the minimum data necessary for educational and
++          subscription purposes (name, school, grade, learning progress, and
++          device info).
++        </li>
++        <li>We do not serve behavioural or targeted advertising to children.</li>
++        <li>We do not allow children to publicly post personal information.</li>
++        <li>
++          Parents or guardians may request access to, correction of, or
++          deletion of their child's data at any time by contacting us at
++          <a href="mailto:support@loholearning.co.ke"
++            >support@loholearning.co.ke</a
++          >.
++        </li>
++      </ul>
++      <p>
++        This section is intended to comply with the Google Play Families
++        Policy, COPPA (U.S. Children's Online Privacy Protection Act), and
++        relevant Kenyan data protection law.
++      </p>
++
++      <h2>5. Sharing Your Information</h2>
++      <p>We may share your information with:</p>
++      <ul>
++        <li>
++          Safaricom Limited to verify and process your subscription via Direct
++          Carrier Billing.
++        </li>
++        <li>
++          Cloud hosting and infrastructure providers to store and process data
++          securely on our behalf.
++        </li>
++        <li>
++          Analytics providers in aggregated, anonymised form to understand
++          usage patterns.
++        </li>
++        <li>
++          Legal authorities if required by law, court order, or to protect the
++          rights and safety of our users.
++        </li>
++      </ul>
++      <p>
++        We require all third-party service providers to handle your data
++        securely and in accordance with applicable privacy laws.
++      </p>
++
++      <h2>6. Data Retention</h2>
++      <p>
++        We retain your personal data for as long as your account is active or
++        as needed to provide services. Specifically:
++      </p>
++      <ul>
++        <li>Account and profile data: retained while your account is active.</li>
++        <li>
++          Learning progress data: retained for the duration of the account and
++          for up to 12 months after account deletion to enable re-enrolment.
++        </li>
++        <li>
++          Subscription and billing records: retained for up to 7 years for
++          legal and financial compliance.
++        </li>
++      </ul>
++      <p>
++        You may request deletion of your account and associated data at any
++        time (see Section 9).
++      </p>
++
++      <h2>7. Data Security</h2>
++      <p>
++        We take the security of your data seriously and implement appropriate
++        technical and organisational measures, including:
++      </p>
++      <ul>
++        <li>Encrypted data transmission (HTTPS/TLS)</li>
++        <li>
++          Access controls limiting who within our organisation can access
++          personal data
++        </li>
++        <li>Regular security reviews of our infrastructure</li>
++      </ul>
++      <p>
++        While we strive to protect your personal data, no method of
++        transmission over the internet is 100% secure. We encourage you to use
++        a strong password and keep your account credentials confidential.
++      </p>
++
++      <h2>8. Cookies and Tracking</h2>
++      <p>
++        The Elimu Pepe App uses a WebView to display content from our website.
++        Our website uses cookies for the following purposes:
++      </p>
++      <ul>
++        <li>
++          Strictly Necessary Cookies: required for the App and website to
++          function correctly.
++        </li>
++        <li>
++          Performance Cookies: help us understand which pages are most visited
++          and how users navigate.
++        </li>
++        <li>
++          Functional Cookies: enable personalisation and enhanced features.
++        </li>
++      </ul>
++      <p>
++        Our website also uses Facebook Pixel for marketing analytics on the web
++        platform. This tracking is limited to our website and is not used to
++        target children within the App.
++      </p>
++      <p>
++        You can manage cookie preferences at any time through your browser or
++        device settings.
++      </p>
++
++      <h2>9. Your Rights</h2>
++      <p>
++        Under the Kenya Data Protection Act, 2019, and applicable
++        international standards, you have the right to:
++      </p>
++      <ul>
++        <li>Access the personal data we hold about you</li>
++        <li>Request correction of inaccurate data</li>
++        <li>Request deletion of your data ("right to be forgotten")</li>
++        <li>Object to or restrict certain types of processing</li>
++        <li>
++          Data portability: receive your data in a structured, commonly used
++          format
++        </li>
++        <li>
++          Withdraw consent at any time, without affecting the lawfulness of
++          prior processing
++        </li>
++      </ul>
++      <p>To exercise any of these rights, please contact us at:</p>
++      <p>
++        <strong>Email:</strong>
++        <a href="mailto:support@loholearning.co.ke"
++          >support@loholearning.co.ke</a
++        >
++      </p>
++      <p>
++        <strong>Address:</strong> Loho Learning Ltd, Funzi Road, Industrial
++        Area, Nairobi, Kenya
++      </p>
++      <p>We will respond to requests within 30 days.</p>
++
++      <h2>10. Third-Party Links and Services</h2>
++      <p>
++        The App may contain links to third-party websites or services. This
++        Privacy Policy does not apply to those external sites. We encourage you
++        to review the privacy policies of any third-party services you access.
++      </p>
++
++      <h2>11. Changes to This Policy</h2>
++      <p>
++        We may update this Privacy Policy from time to time. When we make
++        significant changes, we will:
++      </p>
++      <ul>
++        <li>Update the "Last Updated" date at the top of this document</li>
++        <li>Notify users via in-app notification or email where required</li>
++      </ul>
++      <p>
++        Your continued use of the App after any changes constitutes acceptance
++        of the updated Privacy Policy.
++      </p>
++
++      <h2>12. Contact Us</h2>
++      <p>
++        If you have any questions, concerns, or complaints about this Privacy
++        Policy or our data practices, please contact us:
++      </p>
++      <p><strong>Loho Learning Ltd</strong></p>
++      <p>Funzi Road, Industrial Area, Nairobi, Kenya</p>
++      <p>
++        <strong>Email:</strong>
++        <a href="mailto:support@loholearning.co.ke"
++          >support@loholearning.co.ke</a
++        >
++      </p>
++      <p><strong>Phone:</strong> +254 797 349 396</p>
++      <p>
++        <strong>Website:</strong>
++        <a href="https://elimupepe.loholearning.co.ke"
++          >https://elimupepe.loholearning.co.ke</a
++        >
++      </p>
++
++      <p class="footer-note">
++        This Privacy Policy was prepared for Google Play Store compliance and
++        open testing submission.
++      </p>
++      <p class="footer-note">© 2026 Loho Learning Ltd. All rights reserved.</p>
++    </div>
++  </body>
++</html>
+```
+
+**Delete: `/home/joe/Videos/Code/new/privacy/ElimuPepe_Terms_and_Conditions.docx.html`**
+
+**Add: `/home/joe/Videos/Code/new/privacy/ElimuPepe_Terms_and_Conditions.docx.html`**
+
+```diff
++<!doctype html>
++<html lang="en">
++  <head>
++    <meta charset="UTF-8" />
++    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
++    <title>Terms & Conditions - Elimu Pepe</title>
++    <style>
++      :root {
++        --primary-color: #2c3e50;
++        --accent-color: #3498db;
++        --bg-color: #f4f7f6;
++        --text-color: #333;
++      }
++      body {
++        font-family:
++          "Inter",
++          -apple-system,
++          BlinkMacSystemFont,
++          "Segoe UI",
++          Roboto,
++          Helvetica,
++          Arial,
++          sans-serif;
++        line-height: 1.7;
++        color: var(--text-color);
++        background-color: var(--bg-color);
++        margin: 0;
++        padding: 20px;
++      }
++      nav {
++        text-align: center;
++        background: #f0f0f0;
++        padding: 10px;
++      }
++      nav a {
++        margin: 0 15px;
++        text-decoration: none;
++        color: #2c3e50;
++      }
++      .policy-container {
++        max-width: 900px;
++        margin: 40px auto;
++        background: #fff;
++        padding: 50px;
++        border-radius: 12px;
++        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
++      }
++      .page-logo {
++        max-width: 150px;
++        height: auto;
++        display: block;
++        margin: 0 auto 20px;
++      }
++      h1 {
++        color: var(--primary-color);
++        font-size: 2.5rem;
++        border-bottom: 3px solid var(--accent-color);
++        padding-bottom: 15px;
++        margin-bottom: 10px;
++      }
++      .subtitle {
++        font-size: 1.2rem;
++        color: #7f8c8d;
++        margin-bottom: 40px;
++      }
++      h2 {
++        color: var(--primary-color);
++        margin-top: 40px;
++        font-size: 1.6rem;
++        border-left: 5px solid var(--accent-color);
++        padding-left: 15px;
++      }
++      h3 {
++        color: #2c3e50;
++        margin-top: 25px;
++      }
++      h4 {
++        color: #34495e;
++        text-decoration: underline;
++      }
++      p,
++      li {
++        font-size: 1.05rem;
++        margin-bottom: 15px;
++      }
++      ul {
++        padding-left: 20px;
++      }
++      a {
++        color: var(--accent-color);
++      }
++      .footer-note {
++        text-align: center;
++        margin-top: 50px;
++        font-size: 0.9rem;
++        color: #95a5a6;
++      }
++      @media (max-width: 600px) {
++        .policy-container {
++          padding: 20px;
++          margin: 10px;
++        }
++        h1 {
++          font-size: 1.8rem;
++        }
++      }
++    </style>
++  </head>
++  <body>
++    <nav>
++      <a href="index.html">Privacy Policy</a>
++      <a href="terms.html">Terms & Conditions</a>
++    </nav>
++    <div class="policy-container">
++      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
++      <p class="subtitle">Your Agreement with Us</p>
++      <h1>Terms & Conditions</h1>
++      <p><strong>Effective Date:</strong> April 8, 2026</p>
++      <p><strong>Last Updated:</strong> April 8, 2026</p>
++      <p>
++        <strong>App Version:</strong> Android (WebView)
++        <strong> | Support:</strong>
++        <a href="mailto:support@loholearning.co.ke"
++          >support@loholearning.co.ke</a
++        >
++      </p>
++
++      <h2>1. Acceptance of Terms</h2>
++      <p>
++        These Terms and Conditions ("Terms") constitute a legally binding
++        agreement between you ("User", "you", or "your") and Loho Learning Ltd
++        ("Company", "we", "us", or "our"), governing your use of the Elimu
++        Pepe mobile application and associated services (collectively, the
++        "Service").
++      </p>
++      <p>
++        By downloading, installing, or using the App, you confirm that you
++        have read, understood, and agree to be bound by these Terms and our
++        Privacy Policy. If you are accessing the App on behalf of a child under
++        18, you accept these Terms as the parent or legal guardian and are
++        responsible for their use of the Service.
++      </p>
++      <p>If you do not agree to these Terms, please do not use the App.</p>
++
++      <h2>2. About the Service</h2>
++      <p>
++        Elimu Pepe is an educational mobile application developed by Loho
++        Learning Ltd, designed to support learners following Kenya's
++        Competency Based Curriculum (CBC). The App provides:
++      </p>
++      <ul>
++        <li>
++          Access to CBC-aligned learning content across multiple subjects and
++          grade levels
++        </li>
++        <li>Interactive quizzes and learning exercises (Elimu Quest)</li>
++        <li>
++          Gamification features including leaderboards, badges, and achievement
++          rewards
++        </li>
++        <li>
++          Subscription-based access with optional data bundle add-ons via
++          Safaricom
++        </li>
++      </ul>
++      <p>
++        The App operates as a WebView application, displaying content hosted on
++        our web platform. An internet connection is required to access most
++        features.
++      </p>
++
++      <h2>3. Eligibility and Account Registration</h2>
++      <h3>3.1 Age Requirements</h3>
++      <p>The App is available to learners of all ages. However:</p>
++      <ul>
++        <li>
++          Users under the age of 18 must have the consent of a parent or legal
++          guardian to use the App.
++        </li>
++        <li>
++          Accounts for children under 13 must be created and managed by a
++          parent or guardian.
++        </li>
++        <li>
++          By registering an account for a child, you represent that you are the
++          child's parent or legal guardian and consent to these Terms on their
++          behalf.
++        </li>
++      </ul>
++
++      <h3>3.2 Account Responsibility</h3>
++      <ul>
++        <li>
++          You are responsible for maintaining the confidentiality of your
++          account credentials.
++        </li>
++        <li>You are responsible for all activity that occurs under your account.</li>
++        <li>
++          You must notify us immediately at
++          <a href="mailto:support@loholearning.co.ke"
++            >support@loholearning.co.ke</a
++          >
++          if you suspect unauthorised access to your account.
++        </li>
++        <li>
++          One account may be used to manage multiple learner profiles within
++          the same household.
++        </li>
++      </ul>
++
++      <h2>4. Subscriptions and Billing</h2>
++      <h3>4.1 Available Plans</h3>
++      <p>
++        Elimu Pepe offers the following subscription tiers, billed via
++        Safaricom Direct Carrier Billing (DCB):
++      </p>
++      <ul>
++        <li>Daily Access (One-Off): Ksh 10 per day</li>
++        <li>Daily Access (Auto-Renew): Ksh 10 per day, automatically renewed daily</li>
++        <li>Daily Bundle with 100MB Data (One-Off): Ksh 20 per day</li>
++        <li>Daily Bundle with 100MB Data (Auto-Renew): Ksh 20 per day</li>
++        <li>Termly Access (One-Off or Auto-Renew): Ksh 800 per term</li>
++        <li>
++          Termly Bundle with 5GB/Month Data (One-Off or Auto-Renew): Ksh 2,000
++          per term
++        </li>
++        <li>Yearly Access (One-Off): Ksh 2,000 per year</li>
++        <li>
++          Yearly Bundle with 5GB/Month Data (One-Off or Auto-Renew): Ksh 5,600
++          per year
++        </li>
++      </ul>
++
++      <h3>4.2 Billing and Payments</h3>
++      <ul>
++        <li>
++          All payments are processed by Safaricom Limited via Direct Carrier
++          Billing. Charges are deducted from your Safaricom mobile account
++          balance or airtime.
++        </li>
++        <li>
++          Auto-renewing subscriptions will be charged automatically at the end
++          of each billing period unless cancelled before the renewal date.
++        </li>
++        <li>
++          We do not store your Safaricom account credentials or payment card
++          information.
++        </li>
++        <li>
++          Subscription prices are listed in Kenyan Shillings (KES) and include
++          applicable taxes.
++        </li>
++      </ul>
++
++      <h3>4.3 Cancellations and Refunds</h3>
++      <ul>
++        <li>
++          You may cancel an auto-renewing subscription at any time. Cancellation
++          takes effect at the end of the current billing period.
++        </li>
++        <li>
++          One-off (non-recurring) subscriptions are not automatically renewed
++          and require no cancellation.
++        </li>
++        <li>
++          Refunds are handled in accordance with Safaricom's billing policies.
++          We do not independently issue refunds for carrier-billed transactions.
++          For billing disputes, please contact Safaricom customer care or reach
++          us at
++          <a href="mailto:support@loholearning.co.ke"
++            >support@loholearning.co.ke</a
++          >.
++        </li>
++      </ul>
++
++      <h3>4.4 Subscription Access</h3>
++      <ul>
++        <li>
++          Access to premium content is contingent on an active subscription. If
++          your subscription lapses, access to paid features will be suspended
++          until renewed.
++        </li>
++        <li>
++          Data bundle benefits (100MB/day or 5GB/month) are provided by
++          Safaricom and are subject to Safaricom's own data terms and fair use
++          policies.
++        </li>
++      </ul>
++
++      <h2>5. Acceptable Use</h2>
++      <p>You agree to use the App only for lawful, educational purposes. You must NOT:</p>
++      <ul>
++        <li>Use the App to distribute spam, malware, or harmful content</li>
++        <li>Attempt to reverse-engineer, decompile, or extract the source code of the App</li>
++        <li>Share your account credentials with individuals outside your household</li>
++        <li>Use automated tools, bots, or scrapers to access the App's content</li>
++        <li>Impersonate another user, learner, or member of our team</li>
++        <li>Upload or transmit any content that is offensive, abusive, defamatory, or unlawful</li>
++        <li>Attempt to circumvent subscription verification or billing systems</li>
++      </ul>
++      <p>
++        We reserve the right to suspend or terminate accounts that violate
++        these rules without prior notice.
++      </p>
++
++      <h2>6. Intellectual Property</h2>
++      <p>
++        All content within the Elimu Pepe App, including lesson materials, quiz
++        questions, graphics, the Elimu Quest game design, branding, and
++        software, is the intellectual property of Loho Learning Ltd or its
++        licensors.
++      </p>
++      <ul>
++        <li>
++          You are granted a limited, non-exclusive, non-transferable licence to
++          access and use the App for personal, non-commercial educational
++          purposes.
++        </li>
++        <li>
++          You may not reproduce, redistribute, sell, or create derivative works
++          from any App content without our prior written permission.
++        </li>
++        <li>
++          User-generated content (e.g. quiz responses, leaderboard entries)
++          remains your property, but you grant us a licence to use it to
++          operate and improve the Service.
++        </li>
++      </ul>
++
++      <h2>7. Gamification and Competitions</h2>
++      <p>
++        Elimu Pepe includes competitive features such as the Elimu Quest
++        leaderboard, badges, and point systems. By participating:
++      </p>
++      <ul>
++        <li>
++          You agree that leaderboard rankings and scores are calculated by our
++          systems and are final.
++        </li>
++        <li>
++          Rewards or prizes (if any) are subject to separate terms announced at
++          the time of each competition.
++        </li>
++        <li>
++          We reserve the right to modify, suspend, or end any gamification
++          feature at any time.
++        </li>
++        <li>
++          Cheating, exploiting bugs, or using unauthorised tools to gain an
++          advantage is prohibited and may result in account suspension.
++        </li>
++      </ul>
++
++      <h2>8. Disclaimer of Warranties</h2>
++      <p>
++        The App is provided "as is" and "as available" without warranties of
++        any kind, either express or implied. We do not warrant that:
++      </p>
++      <ul>
++        <li>The App will be uninterrupted, error-free, or free of viruses</li>
++        <li>
++          The educational content will meet any specific curriculum or
++          examination requirements
++        </li>
++        <li>Results from using the App will guarantee any academic outcome</li>
++      </ul>
++      <p>
++        To the fullest extent permitted by Kenyan law, we disclaim all implied
++        warranties, including fitness for a particular purpose and
++        merchantability.
++      </p>
++
++      <h2>9. Limitation of Liability</h2>
++      <p>
++        To the maximum extent permitted by applicable law, Loho Learning Ltd
++        shall not be liable for:
++      </p>
++      <ul>
++        <li>
++          Any indirect, incidental, special, or consequential damages arising
++          from your use of the App
++        </li>
++        <li>Loss of data, revenue, or educational opportunity</li>
++        <li>
++          Service interruptions caused by third-party providers (including
++          Safaricom network outages)
++        </li>
++      </ul>
++      <p>
++        Our total liability to you for any claims arising out of or related to
++        these Terms shall not exceed the total amount you have paid to us in
++        the 3 months preceding the claim.
++      </p>
++
++      <h2>10. Third-Party Services</h2>
++      <p>The App integrates with or links to third-party services including:</p>
++      <ul>
++        <li>Safaricom Limited for subscription and carrier billing</li>
++        <li>Cloud infrastructure providers for hosting and data storage</li>
++      </ul>
++      <p>
++        We are not responsible for the practices, content, or availability of
++        any third-party services. Use of third-party services is governed by
++        their respective terms and privacy policies.
++      </p>
++
++      <h2>11. Modifications to the Service and Terms</h2>
++      <ul>
++        <li>
++          We reserve the right to update, modify, or discontinue any feature of
++          the App at any time, with or without notice.
++        </li>
++        <li>
++          We may revise these Terms periodically. Updated Terms will be posted
++          within the App and on our website with a new effective date.
++        </li>
++        <li>
++          Your continued use of the App after any changes constitutes acceptance
++          of the revised Terms.
++        </li>
++        <li>
++          We will provide advance notice of material changes where required by
++          applicable law.
++        </li>
++      </ul>
++
++      <h2>12. Termination</h2>
++      <p>Either party may terminate this agreement at any time.</p>
++      <ul>
++        <li>You may terminate by deleting the App and contacting us to close your account.</li>
++        <li>
++          We may suspend or terminate your access immediately if you breach
++          these Terms, engage in fraudulent activity, or if required by law.
++        </li>
++        <li>
++          Upon termination, your right to use the App ceases. Provisions of
++          these Terms that by their nature should survive termination,
++          including intellectual property, limitation of liability, and
++          governing law, shall remain in effect.
++        </li>
++      </ul>
++
++      <h2>13. Governing Law and Dispute Resolution</h2>
++      <p>
++        These Terms are governed by and construed in accordance with the laws
++        of the Republic of Kenya, without regard to conflict of law principles.
++      </p>
++      <p>
++        In the event of a dispute arising out of or in connection with these
++        Terms, the parties agree to first attempt resolution through good-faith
++        negotiation. If unresolved within 30 days, disputes shall be submitted
++        to the exclusive jurisdiction of the courts of Nairobi, Kenya.
++      </p>
++
++      <h2>14. Contact Us</h2>
++      <p>If you have any questions about these Terms and Conditions, please contact us:</p>
++      <p><strong>Loho Learning Ltd</strong></p>
++      <p>Funzi Road, Industrial Area, Nairobi, Kenya</p>
++      <p>
++        <strong>Email:</strong>
++        <a href="mailto:support@loholearning.co.ke"
++          >support@loholearning.co.ke</a
++        >
++      </p>
++      <p><strong>Phone:</strong> +254 797 349 396</p>
++      <p>
++        <strong>Website:</strong>
++        <a href="https://elimupepe.loholearning.co.ke"
++          >https://elimupepe.loholearning.co.ke</a
++        >
++      </p>
++
++      <p class="footer-note">
++        These Terms & Conditions were prepared for Google Play Store compliance
++        and open testing submission.
++      </p>
++      <p class="footer-note">© 2026 Loho Learning Ltd. All rights reserved.</p>
++    </div>
++  </body>
++</html>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 13:10:04Z)**_
+
+The heavy export CSS is gone from both files now. I’m doing a quick verification pass to confirm they both have the same visual shell as `index.html` and still contain the intended document content.
+
+_**Agent (gpt-5.4 2026-04-08 13:10:04Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,120p' 'ElimuPepe_Privacy_Policy.docx (2).html'`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,120p' 'ElimuPepe_Privacy_Policy.docx (2).html'"
+Chunk ID: 8f0cb3
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 718
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Elimu Pepe</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --accent-color: #3498db;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+      nav {
+        text-align: center;
+        background: #f0f0f0;
+        padding: 10px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      .policy-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .page-logo {
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+      }
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 40px;
+      }
+      h2 {
+        color: var(--primary-color);
+        margin-top: 40px;
+        font-size: 1.6rem;
+        border-left: 5px solid var(--accent-color);
+        padding-left: 15px;
+      }
+      h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+      }
+      h4 {
+        color: #34495e;
+        text-decoration: underline;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--accent-color);
+      }
+      .footer-note {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #95a5a6;
+      }
+      @media (max-width: 600px) {
+        .policy-container {
+          padding: 20px;
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <p class="subtitle">Your Privacy is Our Priority</p>
+      <h1>Privacy Policy</h1>
+      <p><strong>Effective Date:</strong> April 8, 2026</p>
+      <p><strong>Last Updated:</strong> April 8, 2026</p>
+      <p>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 13:10:04Z)**_
+
+<tool-use data-tool-type="shell" data-tool-name="exec_command"><details>
+<summary>Tool use: **exec_command** `sed -n '1,120p' 'ElimuPepe_Terms_and_Conditions.docx.html'`</summary>
+```
+Command: /bin/bash -lc "sed -n '1,120p' 'ElimuPepe_Terms_and_Conditions.docx.html'"
+Chunk ID: cf2b2b
+Wall time: 0.0000 seconds
+Process exited with code 0
+Original token count: 718
+Output:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms & Conditions - Elimu Pepe</title>
+    <style>
+      :root {
+        --primary-color: #2c3e50;
+        --accent-color: #3498db;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+      }
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 20px;
+      }
+      nav {
+        text-align: center;
+        background: #f0f0f0;
+        padding: 10px;
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      .policy-container {
+        max-width: 900px;
+        margin: 40px auto;
+        background: #fff;
+        padding: 50px;
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      }
+      .page-logo {
+        max-width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto 20px;
+      }
+      h1 {
+        color: var(--primary-color);
+        font-size: 2.5rem;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 15px;
+        margin-bottom: 10px;
+      }
+      .subtitle {
+        font-size: 1.2rem;
+        color: #7f8c8d;
+        margin-bottom: 40px;
+      }
+      h2 {
+        color: var(--primary-color);
+        margin-top: 40px;
+        font-size: 1.6rem;
+        border-left: 5px solid var(--accent-color);
+        padding-left: 15px;
+      }
+      h3 {
+        color: #2c3e50;
+        margin-top: 25px;
+      }
+      h4 {
+        color: #34495e;
+        text-decoration: underline;
+      }
+      p,
+      li {
+        font-size: 1.05rem;
+        margin-bottom: 15px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      a {
+        color: var(--accent-color);
+      }
+      .footer-note {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #95a5a6;
+      }
+      @media (max-width: 600px) {
+        .policy-container {
+          padding: 20px;
+          margin: 10px;
+        }
+        h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </nav>
+    <div class="policy-container">
+      <img src="logo.png" alt="Elimu Pepe Logo" class="page-logo" />
+      <p class="subtitle">Your Agreement with Us</p>
+      <h1>Terms & Conditions</h1>
+      <p><strong>Effective Date:</strong> April 8, 2026</p>
+      <p><strong>Last Updated:</strong> April 8, 2026</p>
+      <p>
+```
+</details></tool-use>
+
+_**Agent (gpt-5.4 2026-04-08 13:10:10Z)**_
+
+Both exported files now use the same CSS structure and layout style as [index.html](/home/joe/Videos/Code/new/privacy/index.html): same nav, centered white card, logo treatment, typography, colors, spacing, and responsive behavior.
+
+Updated files:
+- [ElimuPepe_Privacy_Policy.docx (2).html](/home/joe/Videos/Code/new/privacy/ElimuPepe_Privacy_Policy.docx%20(2).html)
+- [ElimuPepe_Terms_and_Conditions.docx.html](/home/joe/Videos/Code/new/privacy/ElimuPepe_Terms_and_Conditions.docx.html)
+
+I also removed the bulky Google Docs export CSS so they’re much cleaner and easier to maintain.
